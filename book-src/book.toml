@@ -1,12 +1,15 @@
 [book]
-title = "Intrepid Explorer - Line Follower & Maze Solver"
-authors = ["e-Yantra Theme Team"]
+title = "Line Following & Maze Solver"
+description = "Task curriculum: Arduino-based line follower and maze-solving bot"
+authors = ["e-Yantra"]
 language = "en"
 src = "src"
 
 [build]
 build-dir = "book"
+create-missing = false
 
 [output.html]
 default-theme = "light"
+preferred-dark-theme = "navy"
 git-repository-url = ""
