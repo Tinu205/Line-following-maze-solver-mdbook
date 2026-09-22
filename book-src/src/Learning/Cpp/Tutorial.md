@@ -1,23 +1,28 @@
 
 
+## [Getting started with C++ programming ](https://www.learncpp.com/)
 
-## Introduction to cpp
+In this chapter, we’ll take a first look at a number of topics that are essential to every C++ program. Because there are quite a few topics to cover, we’ll cover most at a fairly shallow level (just enough to get by). The goal of this chapter is to help you understand how basic C++ programs are constructed. By the end of the chapter, you will be able to write your own simple programs.
+
+#### Hello world
+
+This is the first program almost all beginers write while learning a new programming language. As you beginner you're not expected to understand what this does by just glanzing at this. We'll start disecting the code and understand what each line does soon.
+
 ```cpp
 #include <iostream>
-using namespace std;
+
 
 int main() {
-    cout << "Hello, world!" << endl;
+    std::cout << "Hello, world!" << endl;
     return 0;
 }
 ```
 
-- `#include <iostream>` brings in the tools for printing and reading input.
-- `main()` is where the computer starts reading your instructions.
-- `cout <<` sends things to the screen; `endl` moves to a new line.
+- Line 1 is a special type of line called a preprocessor directive. This `#include` preprocessor directive indicates that we would like to use the contents of the iostream library, which is the part of the C++ standard library that allows us to read and write text from/to the console. We need this line in order to use std::cout on line 5. Excluding this line would result in a compile error on line 5, as the compiler wouldn’t otherwise know what std::cout is.
+- `main()` is where the computer starts reading your instructions and `int` before main is the return type of the main function in the further lessons we'll see how to use them for various functions.
+- `std::cout <<` sends things to the screen; `endl` moves to a new line.
 - Every instruction ends with a semicolon, and `{ }` holds a group of instructions together.
 
-Save it as `hello.cpp`, compile it with `g++ hello.cpp -o hello`, then run it with `./hello`. Anything after `//` on a line is a note for humans and is ignored by the computer.
 
 ## Variables & Data Types
 

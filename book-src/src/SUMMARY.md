@@ -1,6 +1,6 @@
 # Summary
 
-- [Learning](./Learning/index.md)
+- [Learning]()
   - [C++]()
     - [Overview](./Learning/Cpp/Overview.md)
     - [C++ Tutorials](./Learning/Cpp/Tutorial.md)
