@@ -1,0 +1,36 @@
+#Objective
+The theme for this task is "Controllers".
+We will learn about propotional controllers and design a controller to follow the walls in the arena by using inputs from the distance sensors. 
+The aim of the task is to reach the other end of the arena while collecting all the waypoints and avoiding collision with the walls. When the simulation starts, a timer of 180 seconds would automatically start. A new waypoint will appear everytime when the robot collects a waypoint till the robot reaches the other end of the arena. The timer would stop either when the robot reaches the other end of the arena or when the robot collides with a wall.
+
+#Arena
+The arena looks as follows. The aim of the robot is to reach the green free zone.
+![](arena.png)
+
+#Scoring
+The run would be evaluated primarily on two parameters
+
+1. Waypoints Collected: This represents the number of waypoints you touch along the way. The run is automatically considered complete when you collect the last waypoint at the starting of the free zone. Remember that you cannot collect the next waypoint before collecting the current one.
+
+2. Time remaining: The represents the time remaining out of the total time of 180 seconds after the run started. The remaining time would automatically be considered 0 if the robot collides with any wall.
+
+#A guide to completing the task
+
+1. Make sure that you are comfortable in using proximity sensors and driving the motors on the e-puck robot. It is highly recommended you complete the prior tasks before implementing this one. Participants are also recommended to go through the learn section and perform the mentioned activities.
+2. The essential setup (world, robot and the visualisation of path) along with the evaluator is provided to you. 
+	1. You can find the download link for the zip that contains the required files in the Downloads section.
+3. Unzip the downloaded ZIP file. This can be done be right clicking the downloaded ZIP file and clicking "Extract all" on Windows and "Extract here" on Ubuntu
+4. Navigate inside the extracted folder and open the teaminfo.json file with the text editor of your choice
+5. Edit the teaminfo.json file by
+	1. Replacing 1234 in "IE#1234" against the team_id by your own team ID
+	2. Replacing "<Enter-Team-Leaders-Email-Here>" with the email used by the team leader to login to the eYSRC portal
+	3. Replacing "<Enter-Team-Leaders-Password-Here>" with the password used by the team leader to login to the eYSRC portal
+6. Save the teaminfo.json file
+7. Navigate to the controllers folder in the Task folder, then navigate to the e-puck folder. Here, you'd find a file called e-puck.py . This is the file that must be edited to reflect your algorithm to implement the task.
+
+
+
+Note:
+
+Do not modify the e-puck-supervisor.py, E-puckDistanceSensorSRC.proto and E-puck-eYSRC.proto file and also do not change the directory structure that is provided.
+

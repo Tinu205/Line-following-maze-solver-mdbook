@@ -1,0 +1,69 @@
+<h2><center> Rotary Encoders </center></h2>
+
+<hr>
+
+Rotary encoders allow us to measure the position(angle) of a rotating shaft. They are typically used with motors to measure the motor's speed and angle. Do go through this [Wikipedia entry](https://en.wikipedia.org/wiki/Rotary_encoder) for a nice overview!
+
+On the ePuck robot available to us the encoders are available to us in the form of [Position Sensors](https://cyberbotics.com/doc/reference/positionsensor) (PS), the values given by these sensors keep on incrementing (or decrementing) as the wheel turns. The values are the total angle rotated by the wheel center in radians, hence if the wheel completes one complete revolution, the value on the sensor will be incremented by 2π. The sensors on the ePuck robot do not have noise and their output value is the total angle covered in radians.
+
+Each wheel on the ePuck robot has a PS associated with it. They are named "left wheel sensor" and "right wheel sensor" for the left and right wheels respectively.
+
+You can initialize them as follows
+```python
+ps_left = robot.getDevice('left wheel sensor')
+ps_left.enable(timestep)
+ps_right = robot.getDevice('right wheel sensor')
+ps_right.enable(timestep)
+```
+The enable function has a disable counterpart, this enabling/disabling feature is included to conserve CPU processing resources. But in our application, the load on the CPU is negligible hence we will keep them enabled all the time.
+
+As mentioned above, the encoders keep on updating their value as the motors turn.
+These values are also commonly referred to as ticks, imagine them like ticks of the seconds hand in a clock, and just as the seconds hand has a resolution of 60, i.e. there are 60 different values it can attain in the course of a rotation, all encoders have a certain resolution.
+In our case on the ePuck, the resolution is set to 1000, i.e. it is possible for the encoder to sense and return values in increments of 2π÷1000 radians. That is around 0.00628 radians or about 0.4 degrees. Not bad eh!?
+The latest value of the encoder can be accessed by these two functions: 
+
+```python
+left_encoder_ticks = ps_left.getValue()
+right_encoder_ticks = ps_right.getValue()
+```
+Note that unlike the hands on a clock, these ticks are incremental, i.e. they don't tick over i.e. reset, naturally, this also means that the values increase if the motor turns in one direction, and decrease if it turns in the opposite direction, this means the values can also be negative.
+
+<hr>
+
+
+- Let us continue our notation from the previous Task, and let R be the radius of the wheel. 
+- For this task we will consider it be to ```20mm```.
+- Thus, for every revolution of the wheel, it will have covered a distance of 2πR (units being the units of R, i.e. mm in our case because we will define R in mm)
+- This distance might be in a straight or curved line, this does not matter. As long as the wheel is not slipping, we are guaranteed that it will cover a distance of 2πR units.
+- Thus now we have a relationship between how much the motor is turning and how far the robot is going. i.e. ```distance = angle * R``` where the ```angle``` is in radians and the ```distance``` is in the units of ```R```. This is analogous to the arc length.
+- Now if we want the wheel to travel a certain distance we know by what angle to turn it!
+
+<hr>
+
+All of this is fine for one wheel, but our robot has two of them! Along with a whole lot of other stuff!
+
+When dealing with the entire robot and not just the individual wheels, we can split our work into three cases. We will consider the robot center now instead of the wheels.
+
+**Case 1: Calculating distance traveled by the robot center when going dead straight**
+
+When the robot is going in a straight line, just monitoring either of the position encoders does the trick, as both the wheels are rotating at the same rate. So this case is just like the condition for a single wheel.
+
+**Case 2: Calculating the angle of the robot center**
+
+- Calculating the present angle of the robot is possible, this is for when you are going in a curve or turning in place or just going straight, and want to know which way the robot is headed/is facing.
+- This requires us to have knowledge of the axle length of the robot, denoted as L. In this task, we will consider L as ```52mm```.
+- Since the two wheels are rigidly linked via the axle, the angle can be simply calculated by taking the difference of the left & right encoder ticks multiplied by the wheel radius and divided by the axle length!
+- Hence we can write it as, ```angle = (left_encoder_ticks - right_encoder_ticks) * R / L```
+- You can calculate the angle either in a clockwise or an anti-clockwise direction, depending upon which way you subtraction above, explore, prod stuff and figure out which one is which!
+
+**Case 3: Calculating distance traveled by the robot center when not going straight**
+
+- You have encountered this case in the previous task
+- It is only a slight change from Case 2 above, can you piece the puzzle together!?
+- We will discuss this Case in the live stream, I will provide a description for those unable to solve and subsequently update this document, good luck!
+
+---
+
+**Exercises**
+
+- Practicing is essential in becoming good at anything, could you solve the [Tracing Polygons](./tracing_polygons.mdown) and [Tracing Circles](./tracing_circles.mdown) exercises but now with encoders instead!? All the best!

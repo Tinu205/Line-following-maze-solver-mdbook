@@ -1,0 +1,21 @@
+<h2><center>Expected Output</center></h2>
+<hr>
+
+The aim of this task is to reach the other end of the arena while collecting all the waypoints and following a line.
+When the simulation starts, a timer of 180 seconds will automatically begin. A new waypoint will appear every time the robot collects a waypoint until it reaches the other end of the arena. The timer will stop either when the robot reaches the other end of the arena or when it collides with a wall.
+
+
+The following instructions need to be followed while making a final submission video of Task 5B:
+1. Make sure you've followed the instructions on the Task 5B Problem Statement Page and have edited the **teaminfo.json** file as instructed.
+2. Go to the **metrics** tab.
+3. Start the simulation using the Webots interface.
+4. The countdown timer will start counting down from **180 seconds**.
+5. As the e-puck traverses the arena and passes through the waypoints the wapoint count will increase, it is indicated in the **Wapoints Reached** field.
+6. If the e-puck collide with the wall countdown timer will **reset to 0**.
+7. Once the run finishes, **zip file will be automatically created** in the Task 5B folder. 
+8. Login to the eYSRC portal and upload the zip file as stated in the **Submission Instructions** page.
+
+
+Please refer to the expected output video shown below.
+
+<center><iframe width="640" height="360" src="https://www.youtube.com/embed/uE3qOUyhQA0?si=BXpw9FDD_84xGaJF" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></center>

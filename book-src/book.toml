@@ -1,0 +1,12 @@
+[book]
+title = "Intrepid Explorer - Line Follower & Maze Solver"
+authors = ["e-Yantra Theme Team"]
+language = "en"
+src = "src"
+
+[build]
+build-dir = "book"
+
+[output.html]
+default-theme = "light"
+git-repository-url = ""

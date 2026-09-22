@@ -1,0 +1,11 @@
+<center><h1>Learn</h1></center>
+
+<hr>
+<ul>
+<li>In this section you will find all the necessary learning resources needed to complete this Intrepid Explorer Theme successfully.</li>
+
+<li>As the competition progresses we will keep on adding resources here. Keep an eye on Bulletin Board and Changelog page for updates.</li>
+
+<li>Most of the things that we will be providing here would be sufficient to successfully complete your Intrepid Explorer Theme.</li>
+
+</ul>
