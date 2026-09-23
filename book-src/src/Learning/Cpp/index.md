@@ -18,4 +18,4 @@ A microcontroller is the bot's brain. Software is the thinking it does. Our job 
 
 ## C++ tutorial
 - [Overview](Overview.md)
-- [C++ Tutorials](Tutorial.md)
+- [Start the tutorial series →](HelloWorld.md)
