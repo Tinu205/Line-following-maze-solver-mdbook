@@ -30,7 +30,7 @@ So there are hundreds of languages we can use to talk with hardware, but there's
 - **Wide community support** : it's one of the most-used languages in robotics, so when you get stuck, chances are someone else already hit the same wall and posted the fix.
 
 ## C++ tutorial
-- [C++ tutorials](Tutorial.md)
+- [Start the tutorial series →](HelloWorld.md)
 
 ### More on Cpp
 1. [C++ for beginners - Learn C++ in one hour - Programming with mosh](https://www.youtube.com/watch?v=ZzaPdXTrSb8)

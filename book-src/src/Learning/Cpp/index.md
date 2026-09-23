@@ -13,7 +13,7 @@ Plug the battery in right now and nothing intelligent happens. The motors don't 
 
 Think of your own body. Your legs are hardware they can walk. But *deciding* to walk, and to walk *towards the door and not into the wall*, is your brain's job. Take the brain out and the legs are still perfectly good legs; they just never move on their own.
 
-A microcontroller is the bot's brain. Software is the thinking it does. Our job in this course is to write that thinking down, line by line, in a language the microcontroller can understand.
+*A microcontroller is the bot's brain. Software is the thinking it does.* Our job in this course is to write that thinking down, line by line, in a language the microcontroller can understand.
 
 
 ## C++ tutorial

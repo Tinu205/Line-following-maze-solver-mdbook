@@ -1,5 +1,5 @@
 [book]
-title = "Line Following & Maze Solver"
+title = "Line Following Maze Solver"
 description = "Task curriculum: Arduino-based line follower and maze-solving bot"
 authors = ["e-Yantra"]
 language = "en"
