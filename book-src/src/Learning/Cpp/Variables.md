@@ -1,6 +1,6 @@
 # Variables & Data Types
 
-In our home we have separate containers/boxes to store different items. Similarly we'll be dealing with a lot of different kind of datas while programming, let's assume we're writing a code to collect name and age of students in a class room, so we need a place to store the names and ages separately right, that's where variables comes in. A variable is a labelled box in the computer's memory. You tell C++ what kind of thing the box holds, give it a name, and put a value in. 
+In our home we have separate containers/boxes to store different items. Similarly we'll be dealing with a lot of different kind of datas while programming, let's assume we're writing a code to collect name and age of students in a class room, so we need a place to store the names and ages separately, that's where variables comes in. A variable is a labelled box in the computer's memory. You tell C++ what kind of thing the box holds, give it a name, and put a value in. 
 
 ```cpp
 int age = 14;            // whole number
