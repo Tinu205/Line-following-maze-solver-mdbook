@@ -27,7 +27,7 @@
       - [Transistors](./Learning/Introductions%20to%20Electronics/Basic%20components%20of%20Electric%20circuits/transistors.md)
       - [Integrated Circuits and Embedded systems](./Learning/Introductions%20to%20Electronics/Basic%20components%20of%20Electric%20circuits/intergrated%20circuits%20and%20embedded%20systems.md)
   - [Introduction to Microcontroller](./Learning/Introduction%20to%20a%20Microcontroller/index.md)
-    - [Basics of Microcontrollers](./Learning/Introduction%20to%20a%20Microcontroller/Basics%20of%20Microcontrollers/index.md)
+    - [Basics of Microcontrollers]()
       - [Arduino](./Learning/Introduction%20to%20a%20Microcontroller/Basics%20of%20Microcontrollers/Arduino.md)
       - [Arduino UNO R3](./Learning/Introduction%20to%20a%20Microcontroller/Basics%20of%20Microcontrollers/Arduino%20UNO%20R3.md)
       - [Arduino Nano](./Learning/Introduction%20to%20a%20Microcontroller/Basics%20of%20Microcontrollers/Arduino%20nano.md)
