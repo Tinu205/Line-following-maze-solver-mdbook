@@ -73,40 +73,6 @@
 
 **SPI (Serial Peripheral Interface):** Facilitates high-speed serial communication with peripherals (e.g. SD cards, RFID modules, displays). Uses four pins: D10 (SS), D11 (MOSI), D12 (MISO) and D13 (SCK). These are also available on the ICSP header.
 
-## Structured Representation of the 30 Pins of Arduino Nano
-
-| Pin No. | Pin Name | Type | Function |
-|---|---|---|---|
-| 1 | D1 / TX | Digital I/O | Serial transmit (UART TX) |
-| 2 | D0 / RX | Digital I/O | Serial receive (UART RX) |
-| 3 | RESET | Input | Resets the microcontroller (active LOW) |
-| 4 | GND | Power | Ground reference |
-| 5 | D2 | Digital I/O | External interrupt INT0 |
-| 6 | D3 | Digital I/O | PWM (~), external interrupt INT1 |
-| 7 | D4 | Digital I/O | General-purpose digital I/O |
-| 8 | D5 | Digital I/O | PWM (~) |
-| 9 | D6 | Digital I/O | PWM (~) |
-| 10 | D7 | Digital I/O | General-purpose digital I/O |
-| 11 | D8 | Digital I/O | General-purpose digital I/O |
-| 12 | D9 | Digital I/O | PWM (~) |
-| 13 | D10 | Digital I/O | PWM (~), SPI SS |
-| 14 | D11 | Digital I/O | PWM (~), SPI MOSI |
-| 15 | D12 | Digital I/O | SPI MISO |
-| 16 | D13 | Digital I/O | SPI SCK, built-in LED |
-| 17 | 3V3 | Power | 3.3V output (low current, ~50 mA) |
-| 18 | AREF | Input | Analog reference voltage |
-| 19 | A0 | Analog In / Digital I/O | Analog input 0 (D14) |
-| 20 | A1 | Analog In / Digital I/O | Analog input 1 (D15) |
-| 21 | A2 | Analog In / Digital I/O | Analog input 2 (D16) |
-| 22 | A3 | Analog In / Digital I/O | Analog input 3 (D17) |
-| 23 | A4 | Analog In / Digital I/O | Analog input 4 (D18), I2C SDA |
-| 24 | A5 | Analog In / Digital I/O | Analog input 5 (D19), I2C SCL |
-| 25 | A6 | Analog In only | Analog input 6 |
-| 26 | A7 | Analog In only | Analog input 7 |
-| 27 | 5V | Power | Regulated 5V output / input |
-| 28 | RESET | Input | Resets the microcontroller (active LOW) |
-| 29 | GND | Power | Ground reference |
-| 30 | VIN | Power | External power input (7-12V) |
 
 ### Pin Summary
 
@@ -122,18 +88,3 @@
 | Power | VIN, 5V, 3V3, GND × 2 | 5 |
 | Control | RESET × 2, AREF | 3 |
 | **Total header pins** | | **30** |
-
-## Arduino Uno vs Arduino Nano
-
-| Feature | Arduino Uno R3 | Arduino Nano |
-|---|---|---|
-| Microcontroller | ATmega328P | ATmega328P |
-| Clock Speed | 16 MHz | 16 MHz |
-| Digital I/O Pins | 14 | 14 |
-| PWM Pins | 6 | 6 |
-| Analog Inputs | 6 (A0 to A5) | 8 (A0 to A7) |
-| USB Connector | USB Type-B | Mini-B USB |
-| DC Barrel Jack | Yes | No |
-| Breadboard Friendly | No | Yes |
-| Size | 68.6 mm × 53.4 mm | 18 mm × 45 mm |
-| Weight | ~25 g | ~7 g |
