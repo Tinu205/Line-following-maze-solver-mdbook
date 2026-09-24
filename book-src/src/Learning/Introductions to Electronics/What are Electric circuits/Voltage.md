@@ -5,9 +5,9 @@ It is a fundamental electrical property representing the **electrical potential 
 Voltage is like the **"push"** that makes electricity flow. It's a measure of how much energy an electrical source has and how strongly it pushes electrons through a circuit.
 A higher voltage corresponds to a more potent push.
 
-> The unit of measurement for votlage is the volt(V).
+> The unit of measurement for voltage is the volt (V).
 
-**What is know as the potential difference?**
+**What is known as the potential difference?**
 It refers to the *difference in voltage level* at two different points of the circuit. The potential difference is what causes electric charges to flow in a circuit.
 
 **Let's take an analogy for more understanding:**

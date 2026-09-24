@@ -16,9 +16,9 @@ Based on how components are connected we can classify circuits into Series and p
     <img src="../../../Assets/Gifs/series_parallel.gif" alt="Circuit image" width="250" >
 </div>
 
-Did you noitce how disconneting one component affects different components in series and parallel connection, now compare this with how disconnecting one componnent affects other components in you home and guess which connection is given in your home.
+Did you notice how disconnecting one component affects different components in series and parallel connections? Now compare this with how disconnecting one component affects other components in your home, and guess which connection is used in your home.
 
-> Note do no play with live power sockets or plug points in your home they have higher voltage and current than our body could handle and cause serious injuries are high.
+> Note: do not play with live power sockets or plug points in your home — they carry higher voltage and current than our body can handle, and the risk of serious injury is high.
 
 Let's look at the following table to understand the distribution of voltage and current in different arrangements of devices.
 

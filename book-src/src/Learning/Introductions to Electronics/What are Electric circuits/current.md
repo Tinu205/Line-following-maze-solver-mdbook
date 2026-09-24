@@ -15,7 +15,7 @@ Some materials allow current to flow more freely than others. Materials are clas
 
 ## Types of current
 
-The currents is classified into Direct current and Alternating current.
+Current is classified into Direct current and Alternating current.
 
 **Alternating Current(AC):**
 - In an AC circuit, the direction of the electric current reverses periodically. This means that the flow of electrons changes direction back and forth many times per second.

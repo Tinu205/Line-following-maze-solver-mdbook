@@ -7,7 +7,8 @@ Ohm's Law is a fundamental principle in electronics that helps us understand the
 </div>
 
 **The mathematical equation of Ohm's Law**
-$$  V = I.R $$
+
+`V = I × R`
 
 Where:
 V represents voltage (measured in volts,V).
@@ -38,7 +39,8 @@ Power (P) in an electric circuit represents the rate at which energy is transfer
 >The unit of power is the watt (W).
 
 In the context of Ohm's Law, the power can be calculated using the following equation:
-$$P=V.I$$
+
+`P = V × I`
 
 Where:
 
@@ -49,11 +51,13 @@ V is *voltage* (measured in volts, V)
 I is *current* (measured in amperes or amps, A)
 
 Power is the amount of energy used or transferred per unit of time. In an electric circuit, it's the energy delivered or consumed by the flow of electric current.
-According to Ohm's Law, we know that V = I * R, so substituting this into the power equation gives us:
+According to Ohm's Law, we know that V = I × R, so substituting this into the power equation gives us:
 
-$$P=I(I.R)$$
+`P = I × (I × R)`
+
 Simplifying further:
-$$P=I^2R$$
+
+`P = I²R`
 
 **Explanation of the equation**
 

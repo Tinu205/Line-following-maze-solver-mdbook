@@ -1,7 +1,7 @@
 ## What are Electric Circuits?
 - - -
 
-Hello, young adventurers! Have you ever wondered how turning on switch on one end of the room turns on light in the other end? Or how you toys light up as soon as you put on the battery and turn it on ? So the energy from battery/power source must be flowing through the light or toy, now let's see what makes the energy flow.
+Hello, young adventurers! Have you ever wondered how turning on a switch on one end of the room turns on a light in the other end? Or how your toys light up as soon as you put in the battery and turn it on? So the energy from the battery/power source must be flowing through the light or toy, now let's see what makes the energy flow.
 
 <div style="text-align:center;">
     <img src="../../../Assets/Images/circuit.png" alt="Circuit image" width="250" >
@@ -14,14 +14,14 @@ Hello, young adventurers! Have you ever wondered how turning on switch on one en
 </div>
 
 ### Open and close circuits
-So if there's a close loop there's must a open loop right ?? And yes there An open loop circuit aswell.
+So if there's a closed loop, there must be an open loop too, right?? And yes, there is an open loop circuit as well.
 
-An **Open circuit** is a circuit in which there is a break or interruption in the path that prevents electric current from flowing. 
+An **Open circuit** is a circuit in which there is a break or interruption in the path that prevents electric current from flowing.
     - In other words, the circuit is incomplete.
-    - If a circuit is incomplete charges can't flow through the circuit.
-    - So yes when you turn of the light buld you're just opening the circuit so the current cannnot flow through the circuit
+    - If a circuit is incomplete, charges can't flow through the circuit.
+    - So yes, when you turn off the light bulb you're just opening the circuit so the current cannot flow through it.
 
-A **Closed circuit** is a circuit where there is a conctinous and unbroken path for the electric current to flow.
-    - In other words the circuit is complete.
-    - If the circuit is complete the current flow through the circuit.
-    - When you turn on the led or fan the you're basically closing the circuit and thus completing the circuit.
+A **Closed circuit** is a circuit where there is a continuous and unbroken path for the electric current to flow.
+    - In other words, the circuit is complete.
+    - If the circuit is complete, the current flows through it.
+    - When you turn on the LED or fan, you're basically closing the circuit and thus completing it.

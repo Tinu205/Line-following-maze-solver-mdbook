@@ -8,7 +8,7 @@ Semiconductors are a class of materials that have properties intermediate betwee
 - Germanium (Ge)
 - Gallium Arsenide (GaAs)
 - Gallium Nitride (GaN)
-- Indium,Phosphide (InP)
+- Indium Phosphide (InP)
 - Cadmium Sulfide (CdS)
 - Zinc Oxide (ZnO) etc.
 
