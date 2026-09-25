@@ -48,7 +48,7 @@
     - [Basics of Robotics](./Learning/Introduction%20to%20robotics/Basics%20of%20Robotics.md)
     - [Sense-Think-Act paradigm](./Learning/Introduction%20to%20robotics/Sense-Think-Act%20paradigm.md)
     - [Major Components of Robot](./Learning/Introduction%20to%20robotics/Major%20components%20of%20Robot.md)
-    - [Motors & Motor Drivers]()
+    - [Motors & Motor Drivers](./Learning/Introduction%20to%20robotics/Motors%20and%20Motor%20Drivers.md)
     - [Motion control](./Learning/Introduction%20to%20robotics/motion%20control.md)
     - [Bang bang controller](./Learning/Introduction%20to%20robotics/Bang%20bang%20controller.md)
     - [PID controller](./Learning/Introduction%20to%20robotics/PID%20controller.md)
@@ -56,7 +56,7 @@
 
 - [Software setup]()
   - [Arduino ide installation]()
-  - [Thinkercad]()
+  - [Velxio Editor](./Software%20Setup/Velxio%20Editor.md)
   - [wokwi]()
 <!-- - [Tasks](./Tasks/index.md)
   - [Task 1](./Tasks/Task_1/Brief.md)
