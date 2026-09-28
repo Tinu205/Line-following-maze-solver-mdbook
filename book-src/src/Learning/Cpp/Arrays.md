@@ -46,7 +46,7 @@ The size is fixed when you declare the array and cannot grow later, so write it 
 
 **Try it.** Store 6 daily temperatures, work out the average, then print how many days were warmer than average.
 
-> 💡 **Try it yourself** — try it in the [Programiz online compiler](https://www.programiz.com/cpp-programming/online-compiler/), then deliberately read `marks[5]` on a 5-item array and see what junk value comes back.
+> **Try it yourself** — try it in the [Programiz online compiler](https://www.programiz.com/cpp-programming/online-compiler/), then deliberately read `marks[5]` on a 5-item array and see what junk value comes back.
 
 ## Quick reference
 

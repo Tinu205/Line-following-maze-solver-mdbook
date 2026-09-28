@@ -76,7 +76,7 @@ int main(){
 
 **Try it.** Read a number and print whether it is positive, negative or zero. Then extend it: read three numbers and print the largest.
 
-> 💡 **Try it yourself** — run every branch of your grade checker in the [Programiz online compiler](https://www.programiz.com/cpp-programming/online-compiler/) by testing marks of 95, 80, 65, 45 and 20.
+> **Try it yourself** — run every branch of your grade checker in the [Programiz online compiler](https://www.programiz.com/cpp-programming/online-compiler/) by testing marks of 95, 80, 65, 45 and 20.
 
 ## Quick reference
 

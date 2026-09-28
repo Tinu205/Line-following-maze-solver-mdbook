@@ -20,7 +20,7 @@ string name = "Meera";   // text, double quotes (needs #include <string>)
 
 The box can be refilled any time, which is why it is called a *variable*: `age = 15;` replaces what was inside. Now what if we don't want the value to be changed, like your phone password or a mathematical constant then we'll use `const` keyword, as in `const double PI = 3.14159;`.
 
-To get a value from the person running the program, use `cin`.
+To get a value from the user running the program, use `cin`.
 
 ```cpp
 #include <iostream>
@@ -32,12 +32,12 @@ int main(){
     cout << "You scored " << marks << " out of 100" << endl;
 }
 ```
-Here note that we have added an extra line after `#include<iostream>` which is `using namespace std` for now understand it as when reading a value this line is added so we don't have to add std::cin or writing a value std::cout. Also note that we've written marks before reading and storing it, because we need to tell the computer to create a variable marks which will store integer values.
+Here note that we have added an extra line after `#include<iostream>` which is `using namespace std`, this changes the namespace to std, so you don't have to use `std::cin` or `std::cout` instead you can use just `cin` or `cout`. Also note that the mark variable is declared before reading it, so computer can create a variable mark to store the value before reading the actual value.
 
 Two traps that catch everyone once:
 
 - Dividing two `int` values throws away the decimals. `int x = 7 / 2;` stores 3, not 3.5. Write `7.0 / 2` and keep the answer in a `double`.
-- Names cannot contain spaces and cannot start with a digit. Use `total_marks` or `totalMarks`, never `total marks` or `2ndTest`.
+- Names cannot contain spaces and cannot start with a digit or a symbol. Use `total_marks` or `totalMarks`, never `total marks` or `2ndTest` or `!total_marks`.
 
 Now let's try to read a name
 
@@ -53,10 +53,10 @@ int main(){
 }
 ```
 
-As mentioned earlier to use `strings` we use `#include <string>` to tell the computer we are going to use string.
-**Try it.** Store your name, your age and your height, then print: `Meera is 14 years old and 1.52 m tall.`
+As mentioned earlier to print / read a **string** we use `#include <string>` to import string library, thus informing the computer we would like to functions related to string.
 
-> 💡 **Try it yourself** — write it in the [Programiz online compiler](https://www.programiz.com/cpp-programming/online-compiler/) before checking your answer against a friend's.
+
+>  **Try it yourself** — write it in the [Programiz online compiler](https://www.programiz.com/cpp-programming/online-compiler/) before checking your answer against a friend's.
 
 ## Quick reference
 

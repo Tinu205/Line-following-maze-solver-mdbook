@@ -4,7 +4,8 @@
 
 Imagine your teacher asks you to write "I will not talk in class" 100 times. Boring, right? Now imagine that halfway through, she changes it to "I will listen in class", and you have to erase and rewrite every single line!
 
-Programming can feel the same way. In a long program, you often need to do the **same task many times**. Without functions, you'd have to:
+Programming can feel the same way. In a long program, you often need to do the **same task many times at different places
+**. Without functions, you'd have to:
 
 - Write the same code again and again (a waste of time)
 - Fix or change it in **every place** it appears (easy to miss one!)
@@ -18,7 +19,7 @@ A function is like a **recipe**. You write it once, give it a name, and then use
 - The **ingredients** you give it are called **inputs** (or *parameters*).
 - The **dish** it gives back is called the **output** (or *return value*).
 
-🍳 Think of a sandwich recipe: give it bread and cheese, and it gives you a cheese sandwich. Give it bread and jam, and you get a jam sandwich. Same recipe, different ingredients!
+ Think of a sandwich recipe: give it bread and cheese, and it gives you a cheese sandwich. Give it bread and jam, and you get a jam sandwich. Same recipe, different ingredients!
 
 ## A Quick Example
 
@@ -66,7 +67,7 @@ Functions are worth the trouble for three reasons: the name says what the code d
 
 **Try it.** Write `bool isEven(int n)` that returns true for even numbers, then use it inside a loop to print every even number from 1 to 20.
 
-> 💡 **Try it yourself** — build `isEven` in the [Programiz online compiler](https://www.programiz.com/cpp-programming/online-compiler/), then try calling it with a negative number and see if your logic still holds.
+> **Try it yourself** — build `isEven` in the [Programiz online compiler](https://www.programiz.com/cpp-programming/online-compiler/), then try calling it with a negative number and see if your logic still holds.
 
 ## Quick reference
 
