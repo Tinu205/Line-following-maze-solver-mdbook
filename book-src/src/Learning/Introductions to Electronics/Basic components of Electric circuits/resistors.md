@@ -17,7 +17,7 @@ If a resistance is present in a circuit, some voltage is dropped on the resistor
 - Potentiometers are often used for finer adjustments, while rheostats handle higher-power applications. 
 
 ## Colour coding of resistors:
-To indicate their resistance values, many resistors are colour-coded with bands of different lors. By interpreting these colour bands, you can determine the resistor's resistance value. Different color codes are used for different tolerance levels and precision.br>
+To indicate their resistance values, many resistors are colour-coded with bands of different colours. By interpreting these colour bands, you can determine the resistor's resistance value. Different color codes are used for different tolerance levels and precision.
 
 **4-band color code of the resistor:** In a 4-band Band color code, the resistance of a resistor is printed throughfour color s strips on the resistor. Each colour has its own significance. 
 
@@ -25,7 +25,7 @@ To indicate their resistance values, many resistors are colour-coded with bands 
     <img src="../../../Assets/Images/resistor color band.jpg" width="250">
 </div>
 
-Each colour has its own value (given in the below table); these values are placed in the following formula, and the value of resistance is determined. 1st, 2nd, and 3rd are the colour codes of the 1st, 2nd, and 3rd olors. The 4th determines the tolerance percentage of the resistor. 
+Each colour has its own value (given in the below table); these values are placed in the following formula, and the value of resistance is determined. 1st, 2nd, and 3rd are the colour codes of the 1st, 2nd, and 3rd colours. The 4th determines the tolerance percentage of the resistor. 
 
 Tolerance: Tolerance is a percentage variation that the resistor can have from its actual values. 
 

@@ -1,22 +1,19 @@
-# Getting Around Wokwi
+# Getting Around Velxio
 
-Before we start wiring anything up, let's get comfortable with the tool we'll be using: [Wokwi](https://wokwi.com/). It's a simulator that runs entirely in your browser — no software to install, and since there's no real Arduino involved, there's nothing to accidentally fry while you're learning.
+Before we start wiring anything up, let's get comfortable with the tool we'll be using: [Velxio](https://velxio.dev/editor). It's a free, browser-based simulator, no software to install and no account needed, that lets you write code and build a circuit for it side by side. Since there's no real Arduino involved, there's nothing to accidentally fry while you're learning.
 
-## Starting a new project
+## What you'll see
 
-Open [wokwi.com/projects/new/arduino-nano](https://wokwi.com/projects/new/arduino-nano) and it'll drop you straight into a blank Arduino Nano project. You'll see three main areas:
+Open [velxio.dev/editor](https://velxio.dev/editor) and you'll land on two main areas:
 
-- **The circuit area** (left/centre) — this is your virtual breadboard. Components you add show up here, and you wire them together by clicking and dragging between their pins.
-- **The code editor** (right) — this is where you write the same C++ code you've already been practicing, just now talking to pins instead of just `cout`.
-- **The green ▶ Play button** (top) — click it to start the simulation. Your code compiles and runs against the virtual circuit in real time. Click it again (it becomes a ■ Stop button) to stop.
+- **A code editor** — this is where you write the same C++ code you've already been practicing, just now talking to pins instead of just `cout`.
+- **A circuit canvas** — this is your virtual breadboard, where you add components and wire them together, then run your code against them.
 
-## Adding components
-
-Click the **+** button above the circuit area to open the parts search. Type the name of whatever you need — "LED," "resistor," "pushbutton" — and drag it onto the canvas. Once it's placed, click and drag from one of its pins to a pin on the Arduino to wire them together; Wokwi draws the wire for you.
+> 🎥 **Watch this first:** we've recorded a short walkthrough of the Velxio interface, how to add parts, wire them up, and run a simulation. Watch it here before your first circuit: [Velxio walkthrough video](https://youtu.be/qtPL0q0q8V4).
 
 ## A couple of habits worth building early
 
-- **Save often.** Wokwi gives your project its own URL — bookmark it or copy the link so you can come back to the same circuit later.
-- **Read the error messages.** If your code doesn't compile, Wokwi shows the same kind of error you'd see in any C++ compiler, right below the code editor. It's usually pointing at exactly the line to fix.
+- **Read the error messages.** If your code doesn't compile, Velxio will show you an error much like any other C++ compiler, pointing at the line to fix.
+- **Double-check your wiring against the reference image** on each page before hitting run, most "nothing happens" bugs turn out to be a wire on the wrong pin.
 
-That's really all you need to get started. From here on, whenever a page says "use Wokwi to try this," this is the workflow: open a new Arduino Nano project, add the parts mentioned, wire them up, paste in the code, and hit ▶.
+That's all you need to get started. From here on, whenever a page says "try this in Velxio," this is the workflow: open the editor, add the parts mentioned, wire them up, paste in the code, and run it.

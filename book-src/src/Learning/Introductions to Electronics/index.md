@@ -23,5 +23,5 @@ Hello there little explorers I hope you have gone through introduction to C++, n
 Don't worry about the sheer quantity of things to learn. You can understand these concepts in a blink of an eye. Understanding these concepts is the first step to bring out the young Tony stark Inside you so buckle up and get ready for the learn and build cool stuffs.
 
 - - -
-Let's dive into the first topic - [Electronic circuits](../Introductions%20to%20Electronics/What%20are%20Electric%20circuits?/index.md)
+Let's dive into the first topic - [Electronic circuits](../Introductions%20to%20Electronics/What%20are%20Electric%20circuits/index.md)
 - - - 

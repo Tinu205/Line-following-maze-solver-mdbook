@@ -27,9 +27,9 @@ Serial.println("World");   // prints, then moves to a new line
 
 `print` keeps writing on the same line, which is handy for building up one message piece by piece. `println` adds a line break at the end, so the next thing you print starts fresh below it. Both can print numbers too, not just text — `Serial.println(sensorValue);` works exactly as you'd expect.
 
-### Seeing it for yourself in Wokwi
+### Seeing it for yourself in Velxio
 
-Once your code is running in Wokwi, look for the **Serial Monitor** panel (usually below the code editor). Anything your code sends with `Serial.print` or `Serial.println` shows up there, live, as your program runs.
+Once your code is running in Velxio, look for its serial output panel (see the [Velxio walkthrough](index.md) if you're not sure where that is). Anything your code sends with `Serial.print` or `Serial.println` shows up there, live, as your program runs.
 
 ### Putting it together
 

@@ -19,9 +19,6 @@ Different job, same language  and soon, your robot too.
 
 
 ## Why C++?
-<div style="text-align: center;">
-<img src="../../Assets/Images/multiple-lang.png" alt="Why C++" width="250">
-</div>
 So there are hundreds of languages we can use to talk with hardware, but there's a reason why we use C++ in particular. Your Arduino isn't a laptop , it doesn't have gigabytes of memory or a fast processor to spare, so the language talking to it has to be lean and direct. That's exactly what C++ gives us:
 
 - **Faster execution** : no waiting around. When your sensor sees the line drifting, the motor needs to correct *now*, not half a second later.
