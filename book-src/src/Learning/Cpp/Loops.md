@@ -8,7 +8,12 @@ Let's assume you need run a same instruction multiple times, so most intuitive w
 | `while` | you repeat until something changes | no |
 | `do-while` | the body must run before you can decide | yes |
 
-### for
+### for loop
+
+<div style="text-align: center;">
+    <img src="../../Assets/Images/for_loop.png" width="300">
+</div>
+
 
 ```cpp
 #include <iostream>
@@ -23,7 +28,12 @@ int main(){
 
 The bracket holds three parts, separated by semicolons: the start (`int i = 1`), the test made before every round (`i <= 5`), and the step taken after every round (`i++`, meaning add 1 to `i`). Trace it on paper once and it stops being mysterious.
 
-### while
+### while loop
+
+<div style="text-align: center;">
+    <img src="../../Assets/Images/while_loop.png" width="300">
+</div>
+
 
 ```cpp
 #include <iostream>
@@ -41,8 +51,14 @@ int main(){
     cout << "Total: " << total << endl;
 }
 ```
+- Keeps going while something is still true, like waiting at a bus stop until the bus actually arrives.
+- You don't know how many rounds it'll take, only the condition that has to break for it to stop.
 
 ### do-while
+
+<div style="text-align: center;">
+    <img src="../../Assets/Images/do_while_loop.png" width="300">
+</div>
 
 ```cpp
 #include <iostream>
@@ -57,7 +73,7 @@ int main(){
 }
 ```
 
-The menu prints once before anything is checked, which is exactly what you want for a prompt.
+The menu prints once before anything is checked.
 
 ### break and continue
 

@@ -1,9 +1,15 @@
 # If-Else
-Now let's look into condional statements. Before we dive deeper into coding part, it's important to understand why do we need a conditional statement in first place. In programming we often need our program to make decision based on a situation. For example, think about deciding wheter to carry an umbrella. 
+
+In programming we often need our program to make decision based on a situation. For example, think about deciding wheter to carry an umbrella. 
 
 You might think "if it's raining I'll take if it isn't I won't ".
 
-Similarly `if` asks a yes/no question and runs a block of code only when the answer is yes. `else` covers every other case.
+<div style="text-align: center;">
+    <img src="../../Assets/Images/if-else.png" width="450">
+</div>
+
+
+Similarly `if` asks a yes/no question and runs a block of code only when the answer is yes and `else` covers every other case.
 
 ```cpp
 #include <iostream>

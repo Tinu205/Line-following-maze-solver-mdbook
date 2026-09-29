@@ -15,4 +15,4 @@ Think of your own body. Your legs are hardware they can walk. But *deciding* to 
 
 ## C++ tutorial
 - [Overview](Overview.md)
-- [Start the tutorial series →](HelloWorld.md)
+- [Start the tutorial series](HelloWorld.md)
