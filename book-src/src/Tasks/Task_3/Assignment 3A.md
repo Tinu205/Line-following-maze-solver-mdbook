@@ -14,6 +14,6 @@ Record a single screen-capture video showing:
 1. Your code.
 2. The Serial Monitor scrolling live analog values as you move the sensor array over a light surface and then a dark one.
 
-Say your name at the start of the video. Upload it to YouTube as **unlisted** and submit the link [here](#).
+ Upload it to YouTube as **unlisted** and submit the link [here](#).
 
 > Note: replace the link above with your actual submission form once it's set up.

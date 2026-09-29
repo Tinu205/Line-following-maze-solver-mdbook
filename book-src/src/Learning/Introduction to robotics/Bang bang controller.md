@@ -4,10 +4,10 @@ A controller is something that alters the behaviour or state of the system in su
 
 
 <div style="text-align:center;">
-    <img src="../../Assets/Images/controller intro.jpg" width="250">
+    <img src="../../Assets/Images/controller intro.jpg" width="500">
 </div>
 
-For ex.
+For example:
 
 Self-driving cars and robots in general don’t move with perfect precision. Their trajectory can be affected by their environment (such as non-flat surfaces), and slight mis-alignments in its mechanics (such as mis-aligned wheels).
 
@@ -32,7 +32,7 @@ A possible algorithm you would come up with would be as shown in the flow chart 
 
 
 <div style="text-align:center;">
-    <img src="../../Assets/Images/bang-bang-wrong.png" width="250">
+    <img src="../../Assets/Images/bang-bang-wrong.png" width="500">
 </div>
 
 *Question:* Is there any flaw with this design?
@@ -47,7 +47,7 @@ We keep an allowance... We define T_high slightly higher than set_temperature an
 - IF temperature goes below T_low SWITCH ON heater.
 
 <div style="text-align:center;">
-    <img src="../../Assets/Images/bang-bang-right.png" width="250">
+    <img src="../../Assets/Images/bang-bang-right.png" width="500">
 </div>
 
 This logic of a Bang Bang controller is shown in its symbol! The image on the left shows the symbol of Bang Bang Control, while the image on the right shows why it is so. The graph on the right shows the Temperature on x-axis and the control input sent to the heater is shown on the y-axis.
@@ -55,5 +55,5 @@ This logic of a Bang Bang controller is shown in its symbol! The image on the le
 Also, do you see the "Bang Bang" happening in the graph!?
 
 <div style="text-align:center;">
-    <img src="../../Assets/Images/bang-bang-symbol.png" width="250">
+    <img src="../../Assets/Images/bang-bang-symbol.png" width="500">
 </div>

@@ -1,7 +1,9 @@
+## Transistors
+
 Transistors are tiny electronic components that play a crucial role in controlling the flow of electricity in electronic devices like computers and smartphones. They act as switches or amplifiers, helping us process information and perform tasks.The word "transistor" is a combination of "transfer" and "resistor," reflecting its ability to transfer electrical signals and control the flow of current. 
 
 <div style="text-align:center;">
-    <img src="../../../Assets/Images/Transistor-1.png" width="250">
+    <img src="../../../Assets/Images/Transistor-1.png" width="500">
 </div>
 
 **Working:** The operation of a transistor involves the control of current flow between the two outer layers (collector and emitter) by a small current applied to the middle layer (base). This control mechanism allows transistors to amplify signals or act as electronic switches.
@@ -14,7 +16,7 @@ Transistors are tiny electronic components that play a crucial role in controlli
 
 NPN and PNP - The Dynamic Duo: 
 <div style="text-align:center;">
-    <img src="../../../Assets/Images/pnp-npn-transistor.png" width="250">
+    <img src="../../../Assets/Images/pnp-npn-transistor.png" width="500">
 </div>
 
 ### NPN BJT:
@@ -35,7 +37,7 @@ BJTs are commonly used in analogue circuits, such as amplifiers, and in switchin
 There are two primary types of FETs: MOSFET and JFET. 
 
 <div style="text-align:center;">
-    <img src="../../../Assets/Images/jfet_mosfet.jpg" width="250">
+    <img src="../../../Assets/Images/jfet_mosfet.jpg" width="500">
 </div>
 
 **MOSFET (Metal-Oxide-Semiconductor Field-Effect Transistor):**

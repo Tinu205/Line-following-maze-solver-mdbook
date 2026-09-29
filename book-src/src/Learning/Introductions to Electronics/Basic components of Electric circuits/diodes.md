@@ -1,3 +1,4 @@
+## Diodes
 Have you ever pondered how electronic devices ensure electricity flows in one direction and prevent it from going the other way? Let's explore the world of diodes to unveil the secret behind this fascinating behavior! 
 Diodes are essential electronic components that allow current to flow in one direction while blocking it in another. They are two-terminal devices with the primary function of controlling the direction of electric current. 
 
@@ -5,7 +6,7 @@ When a diode is in a circuit, it ensures that current can only flow from the ano
 
 
 <div style="text-align:center;">
-    <img src="../../../Assets/Images/Diode terminal.jpg" width="250">
+    <img src="../../../Assets/Images/Diode terminal.jpg" width="500">
 </div>
 
 ## Working: 
@@ -57,7 +58,7 @@ Diodes have diverse applications.
 ## Light-emitting diode 
 
 <div style="text-align:center;">
-    <img src="../../../Assets/Images/led polarity.jpg" width="250">
+    <img src="../../../Assets/Images/led polarity.jpg" width="500">
 </div>
 
 - Light-emitting diodes, or LEDs, are semiconductor devices that emit light when an electric current passes through them. 
@@ -67,7 +68,7 @@ Diodes have diverse applications.
 
 ## RGB LED
 <div style="text-align:center;">
-    <img src="../../../Assets/Images/RGB.jpg" width="250">
+    <img src="../../../Assets/Images/RGB.jpg" width="500">
 </div>
 
 - An RGB LED is a combination of three LEDs: red, green, and blue. 
@@ -87,7 +88,7 @@ RGB LEDs typically consist of three separate LED elements, each corresponding to
 **Blue Pin:** controls the intensity of the blue color.
 
 <div style="text-align:center;">
-    <img src="../../../Assets/Images/CC_CA.jpg" width="250">
+    <img src="../../../Assets/Images/CC_CA.jpg" width="500">
 </div>
 
 An RGB LED has two types:

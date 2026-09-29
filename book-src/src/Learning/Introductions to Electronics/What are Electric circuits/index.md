@@ -1,14 +1,14 @@
 ## What are Electric Circuits?
 - - -
 
-Hello, young adventurers! Have you ever wondered how turning on a switch on one end of the room turns on a light in the other end? Or how your toys light up as soon as you put in the battery and turn it on? So the energy from the battery/power source must be flowing through the light or toy, now let's see what makes the energy flow.
+Hello, young adventurers! Have you ever wondered how turning on a switch at one end of the room turns on a light on the wall? Or how your toys light up as soon as you put in the battery and turn it on? So the energy from the battery/power source must be flowing through the light or toy, now let's see what/how the energy flows.
 
 <div style="text-align:center;">
     <img src="../../../Assets/Images/circuit.png" alt="Circuit image" width="250" >
 </div>
 
 **A closed loop** or channel through which electric current passes is referred to as an electric circuit. It is made up of numerous components such as voltage sources, resistor, capacitors, inductors and switches, that are linked together via conductive wires.
-- - -
+
 <div style="text-align:center;">
     <img src="../../../Assets/Gifs/open and closed circuit.gif" alt="Circuit animation" width="250">
 </div>

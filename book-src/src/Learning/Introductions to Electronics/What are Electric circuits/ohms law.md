@@ -1,5 +1,5 @@
 ## Ohm's Law
-- - -
+
 Ohm's Law is a fundamental principle in electronics that helps us understand the relationship between voltage, current, and resistance in an electric circuit. It's named after the German physicist Georg Simon Ohm, who formulated it.
 
 <div style="text-align:center;">
@@ -32,7 +32,6 @@ Similarly, if you cut the voltage by half, the current will decrease by half.
 
 When we say that current is inversely proportional to resistance, it means that if you increase the resistance while keeping the voltage constant, the current will decrease. If you decrease the resistance, the current will increase.
 
-- - -
 **Power**
 Power (P) in an electric circuit represents the rate at which energy is transferred or used.
 

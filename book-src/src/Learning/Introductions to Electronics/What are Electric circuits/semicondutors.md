@@ -1,6 +1,5 @@
 ## What are semicondutors ?
 
-- - - 
 Semiconductors are a class of materials that have properties intermediate between conductors (materials that allow electricity to flow easily) and insulators (materials that do not allow electricity to flow). These materials are characterised by their ability to conduct electricity under certain conditions, but not as easily as conductors. The electrical conductivity of semiconductors can be controlled and manipulated, making them vital components in the electronics industry. Semiconductors play a crucial role in modern electronics and technology.
 
 **Examples of Semiconductors**
@@ -29,6 +28,7 @@ Let's understand the Semiconductors
 </div>
 
 **Electron and Holes**:
+
 *Electrons:*
 - In semiconductors, electrons are negatively charged subatomic particles that can carry an electric current.
 - Some electrons in a semiconductor have enough energy to move freely within the crystal lattice of the material. These are called "free electrons."

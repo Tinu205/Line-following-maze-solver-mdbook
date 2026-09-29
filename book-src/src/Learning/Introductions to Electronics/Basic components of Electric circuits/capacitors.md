@@ -1,3 +1,5 @@
+## Capacitors
+
 Ever wondered how your electronic devices manage to store and release electric charge in a controlled manner? Let's explore the world of capacitors to uncover the secret behind this fascinating process! !
 Capacitors are essential components in electronics, designed to store and release electrical energy. They are passive two-terminal devices with the primary purpose of storing electric charge.
 
@@ -17,6 +19,7 @@ Let us watch a video to gain a clear understanding of what a capacitor is and it
 When a capacitor is present in a circuit, it can store electric charge, and the amount of charge stored is determined by the formula
 
 `Q=C.V`
+
 Q: Electric charge stored (in coulombs, C)
 
 C: Capacitance of the capacitor (in farads, F)

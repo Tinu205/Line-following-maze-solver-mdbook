@@ -63,3 +63,7 @@ Put P, I, and D together and you get a **PID controller**, one of the most widel
 | D (Derivative) | how fast the error is changing | overshoot and oscillation |
 
 Tuning a PID controller means finding the right `Kp`, `Ki`, and `Kd` for your specific bot. Too much of any one term and you get a different flavour of instability; too little and the bot barely reacts at all. You'll get hands-on with exactly this tuning in the upcoming tasks.
+
+<div style="text-align:center;">
+    <img src="../../Assets/Images/pid.jpg" width="500">
+</div>

@@ -55,7 +55,7 @@
     - [LSRB / RSLB](./Learning/Introduction%20to%20robotics/LSRB%20RSLB.md)
 
 - [Software setup]()
-  - [Arduino ide installation]()
+  - [Arduino ide installation](./Software%20Setup/Arduino_ide.md)
   - [Velxio Editor](./Software%20Setup/Velxio%20Editor.md)
 - [Tasks](./Tasks/index.md)
   - [Task 1](./Tasks/Task_1/Brief.md)

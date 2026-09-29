@@ -1,4 +1,4 @@
-
+## Resistors
 Have you ever thought about how your gadgets get just the right amount of electric power they need without getting overloaded? Let's dive into the world of resistors to find out the secret behind them!
 
 Resistors are fundamental electronic components that are used to limit or control the flow of electric current in a circuit. They are passive two-terminal devices with the primary purpose of providing resistance to the flow of electrical current.
@@ -6,7 +6,7 @@ Resistors are fundamental electronic components that are used to limit or contro
 If a resistance is present in a circuit, some voltage is dropped on the resistor. The amount of dropped voltage is calculated by Ohm's law.
 
 ## Types of resistors: 
-** Fixed Resistors:**
+**Fixed Resistors:**
 
 - These resistors have a stable, unchanging resistance value. - They maintain a consistent level of resistance and are commonly used when a specific resistance value is needed in a circuit.
 
@@ -47,6 +47,8 @@ In 5 band and 6 band color codes additional 3rd digit is there rest of the thing
         allowfullscreen>
     </iframe>
 </div>
+
+
 A potentiometer, often abbreviated as "pot," is a type of variable resistor used in electronics and electrical circuits. It is a three-terminal device with a resistive element and a sliding contact, and its primary function is to provide a variable voltage divider.
 
 <div style="text-align:center;">

@@ -11,8 +11,6 @@ Since electrons are negatively charged particles, as they travel, a number of ch
 Some materials allow current to flow more freely than others. Materials are classified as conductors or insulators based on their capacity to carry electricity.
 
 
-- - -
-
 ## Types of current
 
 Current is classified into Direct current and Alternating current.
@@ -38,7 +36,7 @@ Current is classified into Direct current and Alternating current.
     <img src="../../../Assets/Gifs/Direct-Current-DC.gif" alt="AC animation" width="250">
 </div>
 
-- - -
+
 **Graphical representation of AC and DC**
 <div style="text-align:center;">
     <img src="../../../Assets/Gifs/AC and DC_graph.jpg" alt="AC animation" width="250">

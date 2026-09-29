@@ -32,9 +32,8 @@ A motor is what turns electrical energy into physical motion, it's the "muscle" 
 
 Here's the catch with all of the above: a microcontroller pin can only safely supply a tiny amount of current, nowhere near enough to spin most motors, which can demand several hundred milliamps or more. Plug a motor straight into a pin and, best case, nothing happens; worst case, you damage the pin.
 
-That's the job of a **motor driver**, a circuit that sits between the microcontroller and the motor, taking a small, safe signal from the microcontroller and using it to switch a much larger current from a separate power source to the motor. For brushless motors specifically, that driver is the ESC mentioned above; for brushed DC motors, a chip like the L293D usually does the job.
+That's the job of a **motor driver**, a circuit that sits between the microcontroller and the motor, taking a small, safe signal from the microcontroller and using it to switch a much larger current from a separate power source to the motor. For brushless motors specifically, that driver is the ESC mentioned above; for brushed DC motors, a chip like the TB6612FNG usually does the job.
 
-We'll get hands-on with exactly how that works, direction control, H-bridges, and the L293D, on the next page.
 
 ## Quick reference
 
