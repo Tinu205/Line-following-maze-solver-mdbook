@@ -17,9 +17,7 @@ Based on how components are connected we can classify circuits into Series and p
     <img src="../../../Assets/Gifs/series_parallel.gif" alt="Circuit image" width="350" >
 </div>
 
-Did you notice how disconnecting one component affects different components in series and parallel connections? No compare it with the connection at your home and guess how's different devices in your home is connected ?
-
-> Note: do not play with live power sockets or plug points in your home — they carry higher voltage and current than our body can handle, and the risk of serious injury is high.
+> Note: Do not play with live power sockets or plug points in your home ,they carry higher voltage and current than our body can handle, and the risk of serious injury is high.
 
 Let's look at the following table to understand the distribution of voltage and current in different arrangements of devices.
 
@@ -28,3 +26,5 @@ Let's look at the following table to understand the distribution of voltage and 
 </div>
 
 An electric circuit can be a combination of both series and parallel. The type of circuit depends on many factors, which include application, voltage or current requirements, and stability.
+
+>What happens when you disconnect one component in series or parallel? Now think about your home, how are the different devices connected?

@@ -1,17 +1,14 @@
 ## What are Electric Circuits?
-- - -
 
-Hello, young adventurers! Have you ever wondered how turning on a switch at one end of the room turns on a light on the wall? Or how your toys light up as soon as you put in the battery and turn it on? So the energy from the battery/power source must be flowing through the light or toy, now let's see what/how the energy flows.
+
+Hello, young adventurers! Have you ever wondered how turning on a switch at one end of the room turns on a light on the wall? Or how your toys light up as soon as you put in the battery and turn it on? So it's intutive to assume that the energy from the battery/power source must be flowing through the light or toy, now let's see what/how exactly the energy flows.
 
 <div style="text-align:center;">
-    <img src="../../../Assets/Images/circuit.png" alt="Circuit image" width="250" >
+    <img src="../../../Assets/Images/circuit.png" alt="Circuit image" width="350" >
 </div>
 
 **A closed loop** or channel through which electric current passes is referred to as an electric circuit. It is made up of numerous components such as voltage sources, resistor, capacitors, inductors and switches, that are linked together via conductive wires.
 
-<div style="text-align:center;">
-    <img src="../../../Assets/Gifs/open and closed circuit.gif" alt="Circuit animation" width="250">
-</div>
 
 ### Open and close circuits
 So if there's a closed loop, there must be an open loop too, right?? And yes, there is an open loop circuit as well.
@@ -25,3 +22,7 @@ A **Closed circuit** is a circuit where there is a continuous and unbroken path 
     - In other words, the circuit is complete.
     - If the circuit is complete, the current flows through it.
     - When you turn on the LED or fan, you're basically closing the circuit and thus completing it.
+
+<div style="text-align:center;">
+    <img src="../../../Assets/Gifs/open and closed circuit.gif" alt="Circuit animation" width="350">
+</div>

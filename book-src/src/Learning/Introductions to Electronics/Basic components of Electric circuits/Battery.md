@@ -15,7 +15,7 @@ A battery is a device that stores and releases electrical energy, typically thro
 **Lithium polymer (LiPo) batteries:** Lightweight and commonly used in radio-controlled devices and drones.
 
 <div style="text-align:center;">
-    <img src="../../../Assets/Images/battery and its types.jpeg" width="250">
+    <img src="../../../Assets/Images/battery and its types.jpeg" width="550">
 </div>
 
 ## Working Principle
@@ -26,7 +26,7 @@ A battery is a device that stores and releases electrical energy, typically thro
 - This flow creates a voltage difference, which can be harnessed to power electrical devices
 
 <div style="text-align:center;">
-    <img src="../../../Assets/Images/Battery Internal.jpg" width="250">
+    <img src="../../../Assets/Images/Battery Internal.jpg" width="550">
 </div>
 
 >Note: In a battery (during discharge), the anode is the negative terminal and the cathode is the positive terminal. This is the reverse of an electrolytic cell, where the anode is positive. In both cases, oxidation occurs at the anode and reduction at the cathode.
@@ -40,7 +40,7 @@ A battery's capacity is a measure of how much electrical energy it can store and
 ## Rechargeable vs. non-rechargeable: 
 
 <div style="text-align:center;">
-    <img src="../../../Assets/Images/types of batteries.jpg" width="250">
+    <img src="../../../Assets/Images/types of batteries.jpg" width="550">
 </div>
 
 **Rechargeable Batteries:**

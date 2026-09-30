@@ -33,10 +33,10 @@ Microcontrollers are compact chips with integrated processors, memory, and perip
 Whereas,microprocessors are more powerful, general-purpose CPUs used in computers, requiring external components and suitable for diverse software applications.
 
 <div style="text-align:center;">
-    <img src="../../Assets/Images/mpmc.jpg" width="250">
+    <img src="../../Assets/Images/mpmc.jpg" width="450">
 </div>
 
 The below table helps us to differentiate both based on a few important factors:
 <div style="text-align:center;">
-    <img src="../../Assets/Images/Difference bet Microprocessor and controller.jpg" width="250">
+    <img src="../../Assets/Images/Difference bet Microprocessor and controller.jpg" width="450">
 </div>

@@ -12,7 +12,7 @@ Arduino is an open-source prototype platform built on simple hardware and softwa
 
 Different Flavours of Arduino:
 <div style="text-align:center;">
-    <img src="../../../Assets/Images/flavors of Arduino.jpg" width="250">
+    <img src="../../../Assets/Images/flavors of Arduino.jpg" width="450">
 </div>
 
 - **Arduino Uno:** This is one of the most common and widely used Arduino boards. It features an ATmega328P microcontroller and offers a good balance between features and simplicity. It has 14 digital input/output pins, 6 analogue inputs, a USB connection for programming and power, and other essential components. 

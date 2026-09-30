@@ -2,6 +2,10 @@
 
 ## Arduino Nano
 
+<div style="text-align:center;">
+    <img src="../../../Assets/Images/nano.jpg" width="250">
+</div>
+
 * The Arduino Nano is a compact, breadboard-friendly microcontroller board that offers almost all the capabilities of the Arduino Uno in a much smaller form factor (about 18 mm × 45 mm).
 * Like the Uno, it is built around the **ATmega328P** microcontroller chip, so code written for the Uno generally runs on the Nano without any changes.
 * It has a total of **30 header pins**, including **22 I/O pins** (14 digital + 8 analog). Of these, **20 can be used as general-purpose digital I/O**, since A6 and A7 are analog-input only.
@@ -50,28 +54,6 @@
 | USB Connector | Mini-B USB |
 | Dimensions | 18 mm × 45 mm |
 | Weight | ~7 g |
-
-## Pin Configuration of Arduino Nano
-
-**Power Pins:** Provide voltage and ground for external components. VIN accepts external unregulated power (7-12V), 5V can supply regulated power (or accept a regulated 5V input), 3V3 supplies 3.3V at low current (about 50 mA), and GND is the ground reference.
-
-**Reset:** Resets the microcontroller. The Nano has two RESET pins plus a reset button. Pulling a RESET pin LOW restarts code execution, which is useful for troubleshooting or adding an external reset switch.
-
-**Digital Pins:** Handle digital signals (0 or 1). Used for both input and output, enabling communication with digital devices like sensors, LEDs, relays and switches.
-
-**Analog Pins:** Read analog voltage levels (0-5V) using a 10-bit ADC, giving values from 0 to 1023. Ideal for interfacing with analog sensors for precise measurements. A6 and A7 work only as analog inputs.
-
-**AREF (Analog Reference):** Sets an external reference voltage for the analog inputs, allowing better resolution when measuring voltages smaller than 5V.
-
-**PWM (Pulse Width Modulation) Pins:** Generate analog-like signals using digital pins (D3, D5, D6, D9, D10, D11). Useful for controlling LEDs and motors with variable intensity or speed.
-
-**UART (Serial) Pins:** Enable serial communication. D1 (TX) transmits data and D0 (RX) receives data. These pins are shared with the USB-to-Serial chip, so avoid using them for other devices while uploading code.
-
-**External Interrupt Pins:** D2 (INT0) and D3 (INT1) can trigger an interrupt on a rising edge, falling edge or change in value, useful for reading buttons and encoders instantly.
-
-**I2C (TWI - Two-Wire Interface):** Allows communication between multiple devices using only two wires - A4 (SDA) and A5 (SCL). Ideal for connecting sensors, OLED/LCD displays and other peripherals in a network.
-
-**SPI (Serial Peripheral Interface):** Facilitates high-speed serial communication with peripherals (e.g. SD cards, RFID modules, displays). Uses four pins: D10 (SS), D11 (MOSI), D12 (MISO) and D13 (SCK). These are also available on the ICSP header.
 
 
 ### Pin Summary

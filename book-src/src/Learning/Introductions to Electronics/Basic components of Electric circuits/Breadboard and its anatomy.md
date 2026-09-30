@@ -7,7 +7,7 @@ Here are the different types of breadboards available to us. The size and type o
 
 **Anatomy of a Breadboard**
 <div style="text-align:center;">
-    <img src="../../../Assets/Images/bread_board_anatomy.jpg" width="250">
+    <img src="../../../Assets/Images/bread_board_anatomy.jpg" width="450">
 </div>
 
 **Power Rails:** These are rows usually marked as "+ (plus)" and "- (minus)" on the sides of the breadboard. They provide power for your circuit.
@@ -25,10 +25,10 @@ Components can be inserted into the holes, and wires are used to make connection
 
 **Horizontal Alignment**
 <div style="text-align:center;">
-    <img src="../../../Assets/Images/Horizontal Alignment.jpg" width="250">
+    <img src="../../../Assets/Images/Horizontal Alignment.jpg" width="450">
 </div>
 
 **Vertical Alignment**
 <div style="text-align:center;">
-    <img src="../../../Assets/Images/Vertical Alignment.jpg" width="250">
+    <img src="../../../Assets/Images/Vertical Alignment.jpg" width="450">
 </div>

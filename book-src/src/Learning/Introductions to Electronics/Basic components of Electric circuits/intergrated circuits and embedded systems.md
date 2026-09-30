@@ -5,7 +5,7 @@
 - They are used in nearly every electronic device, from smartphones and computers to household appliances and automotive systems.
 
 <div style="text-align:center;">
-    <img src="../../../Assets/Images/IC.jpg" width="250">
+    <img src="../../../Assets/Images/IC.jpg" width="350">
 </div>
 
 ## 555 TIMER IC 
@@ -17,7 +17,7 @@ The 555 timer IC is an integrated circuit used for applications such as timers, 
 - It is available as both a through-hole component and a surface-mounted device. 
 
 <div style="text-align:center;">
-    <img src="../../../Assets/Images/555 IC.png" width="250">
+    <img src="../../../Assets/Images/555 IC.png" width="350">
 </div>
 
 Pin configuration of 555 TIMER:

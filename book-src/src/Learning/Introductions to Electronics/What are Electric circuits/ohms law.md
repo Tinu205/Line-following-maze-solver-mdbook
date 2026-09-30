@@ -3,7 +3,7 @@
 Ohm's Law is a fundamental principle in electronics that helps us understand the relationship between voltage, current, and resistance in an electric circuit. It's named after the German physicist Georg Simon Ohm, who formulated it.
 
 <div style="text-align:center;">
-    <img src="../../../Assets/Images/Ohms-Law-Cartoon .jpg" alt="AC animation" width="250">
+    <img src="../../../Assets/Images/Ohms-Law-Cartoon .jpg" alt="AC animation" width="450">
 </div>
 
 **The mathematical equation of Ohm's Law**
@@ -11,9 +11,9 @@ Ohm's Law is a fundamental principle in electronics that helps us understand the
 `V = I × R`
 
 Where:
-V represents voltage (measured in volts,V).
-I represents current (measured in amperes or amps, A).
-R represents resistance (measured in ohms, Ω).
+- **V** represents voltage (measured in volts,V).
+- **I** represents current (measured in amperes or amps, A).
+- **R** represents resistance (measured in ohms, Ω).
 
 Ohm's Law tells us that in a circuit at a constant temperature, the current flowing through a conductor is directly proportional to the voltage across it and inversely proportional to the resistance of the conductor.
 This means:
@@ -22,7 +22,7 @@ This means:
 - If you increase the resistance (like by narrowing the pipe), the current will decrease at the same voltage.
 
 - If you have a higher resistance, you need a higher voltage to achieve the same current.
-
+<!-- 
 **Direct Proportionality:**
 
 When we say that current is directly proportional to voltage, it means that if you double the voltage across a resistor while keeping the resistance constant, the current flowing through it will also double.
@@ -30,9 +30,11 @@ Similarly, if you cut the voltage by half, the current will decrease by half.
 
 **Inverse Proportionality:**
 
-When we say that current is inversely proportional to resistance, it means that if you increase the resistance while keeping the voltage constant, the current will decrease. If you decrease the resistance, the current will increase.
+When we say that current is inversely proportional to resistance, it means that if you increase the resistance while keeping the voltage constant, the current will decrease. If you decrease the resistance, the current will increase. -->
 
-**Power**
+
+## Power
+
 Power (P) in an electric circuit represents the rate at which energy is transferred or used.
 
 >The unit of power is the watt (W).

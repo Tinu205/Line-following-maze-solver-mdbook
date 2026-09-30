@@ -20,7 +20,7 @@
 
 ## PIN DESCRIPTION OF ARDUINO UNO R3
 <div style="text-align:center;">
-    <img src="../../../Assets/Images/Anatomy of Arduino.jpg" width="250">
+    <img src="../../../Assets/Images/Anatomy of Arduino.jpg" width="350">
 </div>
 
 - **Microcontroller:** The brain of the board. It is responsible for executing your program and controlling input and output devices. [ATmega328P]
@@ -47,7 +47,7 @@
 
 ## PIN CONFIGURATION OF ARDUINO UNO R3
 <div style="text-align:center;">
-    <img src="../../../Assets/Images/Arduino pin out diagram.jpg" width="250">
+    <img src="../../../Assets/Images/Arduino pin out diagram.jpg" width="450">
 </div>
 
 - **Power Pins:** Provide voltage and ground for external components. Vin accepts external power (7-12V), 5V and 3.3V supply regulated power, and GND is the ground reference.
@@ -69,5 +69,5 @@
 Here's a structured representation of the overall 32 pins and their functionality on the Arduino Uno R3
 
 <div style="text-align:center;">
-    <img src="../../../Assets/Images/Arduino UNO pin out.jpg" width="250">
+    <img src="../../../Assets/Images/Arduino UNO pin out.jpg" width="450">
 </div>

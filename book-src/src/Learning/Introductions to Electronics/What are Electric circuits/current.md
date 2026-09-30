@@ -1,15 +1,16 @@
 ## What is current?
 
-Electric current is the flow of electric charge through a conductive medium, such as a wire or a circuit.
+Electric current is the flow of the electric charge *a.k.a electrons* through a conductive medium, such as a wire or a circuit.
 
-*Electrons* are tiny particles that reside within a substance's molecular structure. These electrons are at times strongly held and sometimes loosely bound. When electrons are held loosely by the nucleus, they can flow freely inside the body's boundaries.
+*Electrons* are tiny particles that reside within a material's molecular structure. These electrons are at times strongly held and sometimes loosely bound. When electrons are held loosely by the nucleus, they can flow freely inside the body's boundaries.
 
-Since electrons are negatively charged particles, as they travel, a number of charges move with them, and this *movement of electrons* is referred to as *electric current*. The number of electrons that can travel determines a substance's capacity to conduct electricity.
+Since electrons are negatively charged particles, as they travel, a number of charges move with them, and this *movement of electrons* is referred to as *electric current*. The number of electrons that can travel determines a material's capacity to conduct electricity.
 
 > The unit of measurement for current is the ampere (A).
 
 Some materials allow current to flow more freely than others. Materials are classified as conductors or insulators based on their capacity to carry electricity.
 
+> Try classifying different materials into conductors and insulators.
 
 ## Types of current
 
@@ -23,7 +24,7 @@ Current is classified into Direct current and Alternating current.
 - AC is the type of current that we typically use to power our homes, appliances, and most electronic devices.
 
 <div style="text-align:center;">
-    <img src="../../../Assets/Gifs/Alternate-Current-AC.gif" alt="AC animation" width="250">
+    <img src="../../../Assets/Gifs/Alternate-Current-AC.gif" alt="AC animation" width="350">
 </div>
 
 
@@ -33,11 +34,11 @@ Current is classified into Direct current and Alternating current.
 - DC voltage and current levels stay constant over time. This makes DC suitable for devices that need a steady and unchanging power supply, like most electronic gadgets such as cell phones, laptops, and flashlights.
 
 <div style="text-align:center;">
-    <img src="../../../Assets/Gifs/Direct-Current-DC.gif" alt="AC animation" width="250">
+    <img src="../../../Assets/Gifs/Direct-Current-DC.gif" alt="AC animation" width="350">
 </div>
 
 
 **Graphical representation of AC and DC**
 <div style="text-align:center;">
-    <img src="../../../Assets/Gifs/AC and DC_graph.jpg" alt="AC animation" width="250">
+    <img src="../../../Assets/Gifs/AC and DC_graph.jpg" alt="AC animation" >
 </div>

@@ -22,7 +22,7 @@ To indicate their resistance values, many resistors are colour-coded with bands 
 **4-band color code of the resistor:** In a 4-band Band color code, the resistance of a resistor is printed throughfour color s strips on the resistor. Each colour has its own significance. 
 
 <div style="text-align:center;">
-    <img src="../../../Assets/Images/resistor color band.jpg" width="250">
+    <img src="../../../Assets/Images/resistor color band.jpg" width="550">
 </div>
 
 Each colour has its own value (given in the below table); these values are placed in the following formula, and the value of resistance is determined. 1st, 2nd, and 3rd are the colour codes of the 1st, 2nd, and 3rd colours. The 4th determines the tolerance percentage of the resistor. 
@@ -34,7 +34,7 @@ In 5 band and 6 band color codes additional 3rd digit is there rest of the thing
 ## Colours and their codes
 
 <div style="text-align:center;">
-    <img src="../../../Assets/Images/Color band table.jpg" width="250">
+    <img src="../../../Assets/Images/Color band table.jpg" width="550">
 </div>
 
 ## POTENTIOMETER
@@ -52,12 +52,12 @@ In 5 band and 6 band color codes additional 3rd digit is there rest of the thing
 A potentiometer, often abbreviated as "pot," is a type of variable resistor used in electronics and electrical circuits. It is a three-terminal device with a resistive element and a sliding contact, and its primary function is to provide a variable voltage divider.
 
 <div style="text-align:center;">
-    <img src="../../../Assets/Images/pot.jpg" width="250">
+    <img src="../../../Assets/Images/pot.jpg" width="350">
 </div>
 A potentiometer has three parts: a track, two fixed ends, and a moving slider.Turning a knob moves the slider, changing the resistance between the slider and one end while keeping the resistance between the slider and the other end constant. 
 
 <div style="text-align:center;">
-    <img src="../../../Assets/Images/pot internal.jpg" width="250">
+    <img src="../../../Assets/Images/pot internal.jpg" width="350">
 </div>
 
 ## LIGHT DEPENDENT RESISTOR - LDR
@@ -74,5 +74,5 @@ LDRs are versatile light-sensitive devices used for tasks like automatic outdoor
 >Note that LDR does not have any polarity. 
 
 <div style="text-align:center;">
-    <img src="../../../Assets/Images/LDR.jpg" width="250">
+    <img src="../../../Assets/Images/LDR.jpg" width="350">
 </div>

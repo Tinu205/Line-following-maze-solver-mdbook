@@ -1,13 +1,15 @@
 ## What is the idea of voltage?
 
-It is a fundamental electrical property representing the **electrical potential difference** between two points in a circuit.
-
 Voltage is like the **"push"** that makes electricity flow. It's a measure of how much energy an electrical source has and how strongly it pushes electrons through a circuit.
 A higher voltage corresponds to a more potent push.
 
+It is a fundamental electrical property representing the **electrical potential difference** between two points in a circuit.
+
+
 > The unit of measurement for voltage is the volt (V).
 
-**What is known as the potential difference?**
+**What exactly is the potential difference?**
+
 It refers to the *difference in voltage level* at two different points of the circuit. The potential difference is what causes electric charges to flow in a circuit.
 
 **Let's take an analogy for more understanding:**
