@@ -83,9 +83,9 @@ html.light .tl-wrap, html.rust .tl-wrap { --tl-done: #4353c9; --tl-live: #9a7300
 <div class="tl-wrap">
 <header class="tl-head">
 <p class="tl-stage">Stage 1</p>
-<h2 class="tl-title">Learning &amp; Simulation</h2>
-<p class="tl-range">1 Sep – 16 Nov 2026</p>
-<p class="tl-intro">Self-paced, MOOC-style tasks that build your team’s skills from the basics up – simulation, algorithms, and the core tools your theme runs on.</p>
+<h2 class="tl-title">Skill-Building Tasks</h2>
+<p class="tl-range">01-09-2026 – 19-10-2026</p>
+<p class="tl-intro">Self-paced tasks that build your team's skills from the basics up – C++, Arduino, sensors and motors, control algorithms, and maze-solving logic for your line-following bot.</p>
 </header>
 <div class="tl" id="tl-stage1"></div>
 </div>
@@ -95,18 +95,26 @@ html.light .tl-wrap, html.rust .tl-wrap { --tl-done: #4353c9; --tl-live: #9a7300
   // ===== Edit your tasks here =====================================
   // start / end are inclusive dates (YYYY-MM-DD).
   // link is optional: the page's path from the book root, ending in .html
+  // Dates below are placeholders (dd-mm-yyyy shown on the page, yyyy-mm-dd here for parsing) — update start/end once real dates are finalized.
   const TASKS = [
-    { name: "Task 0", start: "2026-09-01", end: "2026-09-14",
-      text: "Install and verify your simulation environment so every later task runs smoothly." },
-    { name: "Task 1", start: "2026-09-15", end: "2026-10-05",
-      text: "Foundational concepts and preliminary tasks for your theme’s tech stack.",
+    { name: "Task 1", start: "2026-09-01", end: "2026-09-14",
+      text: "Programming Fundamentals: variables, conditionals, loops, functions and arrays in C++, solved as a HackerRank contest.",
       link: "Tasks/Task_1/Brief.html" },
-    { name: "Task 2", start: "2026-10-06", end: "2026-10-26",
-      text: "A deeper dive into your theme’s problem statement and the techniques you’ll apply.",
+    { name: "Task 2", start: "2026-09-15", end: "2026-09-21",
+      text: "Introduction to Arduino: digital and analog I/O, serial communication and PWM, wiring your first simulated circuits.",
       link: "Tasks/Task_2/Brief.html" },
-    { name: "Task 3", start: "2026-10-27", end: "2026-11-16",
-      text: "Bring it all together: a complete maze-solving run in simulation.",
+    { name: "Task 3", start: "2026-09-22", end: "2026-09-28",
+      text: "Understanding the Bot: read the IR sensor array and drive the motors for the first time on real hardware.",
       link: "Tasks/Task_3/Brief.html" },
+    { name: "Task 4", start: "2026-09-29", end: "2026-10-05",
+      text: "Implement a bang-bang line follower, then a P controller, and compare the two.",
+      link: "Tasks/Task_4/Brief.html" },
+    { name: "Task 5", start: "2026-10-06", end: "2026-10-12",
+      text: "Extend the P controller into PD (and optionally full PID) for smoother line following.",
+      link: "Tasks/Task_5/Brief.html" },
+    { name: "Task 6", start: "2026-10-13", end: "2026-10-19",
+      text: "LSRB / RSLB Maze Logic: implement junction-priority logic so the bot can navigate a maze.",
+      link: "Tasks/Task_6/Brief.html" },
   ];
   const UTC_OFFSET = "+05:30"; // deadlines are in IST
   // ================================================================
@@ -115,16 +123,17 @@ html.light .tl-wrap, html.rust .tl-wrap { --tl-done: #4353c9; --tl-live: #9a7300
   if (!root) return;
 
   const DAY = 864e5;
-  const MONTHS = ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"];
   const esc = s => String(s).replace(/[&<>"]/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
   const startOf = d => new Date(d + "T00:00:00" + UTC_OFFSET).getTime();
   const endOf = d => new Date(d + "T23:59:59" + UTC_OFFSET).getTime();
   const ymd = s => s.split("-").map(Number);
   const plural = (n, w) => n + " " + w + (n === 1 ? "" : "s");
+  const pad2 = n => String(n).padStart(2, "0");
+  const ddmmyyyy = (y, m, d) => pad2(d) + "-" + pad2(m) + "-" + y;
 
   function range(a, b) {
     const [ay, am, ad] = ymd(a), [by, bm, bd] = ymd(b);
-    return ad + " " + MONTHS[am - 1] + (ay !== by ? " " + ay : "") + " – " + bd + " " + MONTHS[bm - 1] + " " + by;
+    return ddmmyyyy(ay, am, ad) + " – " + ddmmyyyy(by, bm, bd);
   }
   function span(ms) {
     const m = Math.max(0, Math.floor(ms / 6e4));
