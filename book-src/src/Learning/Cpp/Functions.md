@@ -2,24 +2,26 @@
 
 ## Why Do We Need Functions?
 
-Imagine your teacher asks you to write "I will not talk in class" 100 times. Boring, right? Now imagine that halfway through, she changes it to "I will listen in class", and you have to erase and rewrite every single line!
+Say your program needs to square a few numbers:
 
-Programming can feel the same way. In a long program, you often need to do the **same task many times at different places
-**. Without functions, you'd have to:
+```cpp
+cout << 7 * 7 << endl;
+cout << 12 * 12 << endl;
+cout << 20 * 20 << endl;
+```
 
-- Write the same code again and again (a waste of time)
-- Fix or change it in **every place** it appears (easy to miss one!)
+Three lines doing the exact same thing, just with different numbers. Now say you actually meant to cube them, not square them. You'd have to hunt down and fix every single line, and in a long program it's easy to miss one.
 
-**Functions solve this problem.**
+A function lets you write "how to square a number" exactly once, give it a name, and reuse that name wherever you need it. Fix the logic in one place, and every place that uses it is fixed too.
 
 ## What Is a Function?
 
-A function is like a **recipe**. You write it once, give it a name, and then use it whenever you want, as many times as you like.
+Here's what that actually looks like. Squaring a number takes one instruction: `n * n`. Wrap it in a function called `square`, and `square(7)` means "run that instruction with `n` set to 7."
 
-- The **ingredients** you give it are called **inputs** (or *parameters*).
-- The **dish** it gives back is called the **output** (or *return value*).
+- The number you hand in, `7`, `12`, `20`, is the **input** (or *parameter*).
+- The number you get back, `49`, `144`, `400`, is the **output** (or *return value*).
 
- Think of a sandwich recipe: give it bread and cheese, and it gives you a cheese sandwich. Give it bread and jam, and you get a jam sandwich. Same recipe, different ingredients!
+The same idea works for any repeated instruction, not just squaring. Think of it like a recipe: give it bread and cheese, and you get a cheese sandwich; give it bread and jam, and you get a jam sandwich. Same recipe, different ingredients in, different dish out.
 
 ## A Quick Example
 

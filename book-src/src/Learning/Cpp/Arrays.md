@@ -2,6 +2,11 @@
 
 One variable holds one value. An array is a row of numbered lockers, all holding the same type, sharing one name. For example we can use array to store the continous temperature readings .
 
+<div style="text-align: center;">
+    <img src="../../Assets/Images/array.png" width="500">
+</div>
+
+
 ```cpp
 int marks[5] = {88, 72, 95, 60, 41};
 ```
