@@ -1,10 +1,9 @@
-<div style="text-align: center;">
-
 # Hello Little Explorers
-
-<img src="../Assets/Images/hello.png" alt="Hello" width="450">
-
+<div style="text-align: center;">
+    <img src="../Assets/Images/hello.png" width="250">
 </div>
+
+
 
 Over the next few weeks you are going to build a robot that drives itself.
  
