@@ -10,7 +10,9 @@ build-dir = "book"
 create-missing = false
 
 [output.html]
-default-theme = "light"
-preferred-dark-theme = "navy"
-git-repository-url = ""
-no-section-label = true
+default-theme = "coal"             
+preferred-dark-theme = "coal"
+no-section-label = true             
+[output.html.fold]
+enable = true
+level = 0
