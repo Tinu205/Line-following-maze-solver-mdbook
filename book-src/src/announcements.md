@@ -97,22 +97,22 @@ html.light .tl-wrap, html.rust .tl-wrap { --tl-done: #4353c9; --tl-live: #9a7300
   // link is optional: the page's path from the book root, ending in .html
   // Dates below are placeholders (dd-mm-yyyy shown on the page, yyyy-mm-dd here for parsing) — update start/end once real dates are finalized.
   const TASKS = [
-    { name: "Task 1", start: "2026-09-01", end: "2026-09-14",
+    { name: "Task 1", start: "2027-09-01", end: "2027-09-14",
       text: "Programming Fundamentals: variables, conditionals, loops, functions and arrays in C++, solved as a HackerRank contest.",
       link: "Tasks/Task_1/Brief.html" },
-    { name: "Task 2", start: "2026-09-15", end: "2026-09-21",
+    { name: "Task 2", start: "2027-09-15", end: "2027-09-21",
       text: "Introduction to Arduino: digital and analog I/O, serial communication and PWM, wiring your first simulated circuits.",
       link: "Tasks/Task_2/Brief.html" },
-    { name: "Task 3", start: "2026-09-22", end: "2026-09-28",
+    { name: "Task 3", start: "2027-09-22", end: "2027-09-28",
       text: "Understanding the Bot: read the IR sensor array and drive the motors for the first time on real hardware.",
       link: "Tasks/Task_3/Brief.html" },
-    { name: "Task 4", start: "2026-09-29", end: "2026-10-05",
+    { name: "Task 4", start: "2027-09-29", end: "2027-10-05",
       text: "Implement a bang-bang line follower, then a P controller, and compare the two.",
       link: "Tasks/Task_4/Brief.html" },
-    { name: "Task 5", start: "2026-10-06", end: "2026-10-12",
+    { name: "Task 5", start: "2027-10-06", end: "2027-10-12",
       text: "Extend the P controller into PD (and optionally full PID) for smoother line following.",
       link: "Tasks/Task_5/Brief.html" },
-    { name: "Task 6", start: "2026-10-13", end: "2026-10-19",
+    { name: "Task 6", start: "2027-10-13", end: "2027-10-19",
       text: "LSRB / RSLB Maze Logic: implement junction-priority logic so the bot can navigate a maze.",
       link: "Tasks/Task_6/Brief.html" },
   ];
