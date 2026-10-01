@@ -1,0 +1,14 @@
+/* mdBook dims draft chapters using this variable; point it at the normal color */
+html.navy,
+html.light,
+html.coal,
+html.ayu,
+html.rust {
+    --sidebar-non-existant: var(--sidebar-fg) !important;
+}
+
+/* Show a pointer on draft entries (items with no real link) */
+#sidebar li.chapter-item:not(:has(> a[href])),
+#sidebar li.chapter-item:not(:has(> a[href])) > * {
+    cursor: pointer;
+}
