@@ -1,14 +1,14 @@
 # Why Does a Robot Need Software?
 
-Look at your bot's parts: motors, wheels, sensors, a battery, a microcontroller. Every part is *hardware*  you can hold it in your hand, and on its own it does nothing.
+Look at your bot's parts: motors, wheels, sensors, a battery, a microcontroller (a tiny computer on a single chip that controls the other parts). Every part is *hardware* — you can hold it in your hand, and on its own it does nothing.
 
-Plug the battery in right now and nothing intelligent happens. The motors don't know when to turn. The sensors don't know what a "black line" is. Hardware has no opinions  it just responds to electrical signals the instant they arrive.
+Plug the battery in right now and nothing intelligent happens. The motors don't know when to turn. The sensors don't know what a "black line" is. Hardware has no opinions — it just responds to electrical signals the instant they arrive.
 
 *Software* is the missing piece. It's the set of instructions that tells the hardware what to do, and when. It is what turns "a pile of parts" into "a robot that follows a line."
 
 ## A body without a brain
 
-Think of your own body. Your legs are hardware they can walk. But *deciding* to walk, and to walk *towards the door and not into the wall*, is your brain's job. Take the brain out and the legs are still perfectly good legs; they just never move on their own.
+Think of your own body. Your legs are hardware — they can walk. But *deciding* to walk, and to walk *towards the door and not into the wall*, is your brain's job. Take the brain out and the legs are still perfectly good legs; they just never move on their own.
 
 *A microcontroller is the bot's brain. Software is the thinking it does.* Our job in this course is to write that thinking down, line by line, in a language the microcontroller can understand.
 
@@ -16,3 +16,5 @@ Think of your own body. Your legs are hardware they can walk. But *deciding* to 
 ## C++ tutorial
 - [Overview](Overview.md)
 - [Start the tutorial series](HelloWorld.md)
+
+Later, when you program the Arduino Nano, you will write C++ with a couple of small differences. [Putting it Together](PuttingItTogether.md) ends with a short bridge section that shows them side by side.

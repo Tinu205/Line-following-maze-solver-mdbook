@@ -5,43 +5,61 @@ Resistors are fundamental electronic components that are used to limit or contro
 
 If a resistance is present in a circuit, some voltage is dropped on the resistor. The amount of dropped voltage is calculated by Ohm's law.
 
-## Types of resistors: 
+## Types of Resistors
 **Fixed Resistors:**
 
-- These resistors have a stable, unchanging resistance value. - They maintain a consistent level of resistance and are commonly used when a specific resistance value is needed in a circuit.
+- These resistors have a stable, unchanging resistance value.
+- They maintain a consistent level of resistance and are commonly used when a specific resistance value is needed in a circuit.
 
 **Variable Resistors (Potentiometers and Rheostats):**
 
 - These are special resistors that can have their resistance adjusted or changed as required.
-- Think of them like volume knobs on a radio—you can turn them to increase or decrease resistance, which is handy for tasks like adjusting brightness or volume in various electronic devices.
+- Think of them like the volume knob on a radio: you turn it to increase or decrease resistance, which is handy for adjusting brightness or volume.
 - Potentiometers are often used for finer adjustments, while rheostats handle higher-power applications. 
 
-## Colour coding of resistors:
-To indicate their resistance values, many resistors are colour-coded with bands of different colours. By interpreting these colour bands, you can determine the resistor's resistance value. Different color codes are used for different tolerance levels and precision.
+## Color Coding of Resistors
+To indicate their resistance values, many resistors are color-coded with bands of different colors. By reading these color bands, you can determine the resistor's resistance value. Different color codes are used for different tolerance levels and precision.
 
-**4-band color code of the resistor:** In a 4-band Band color code, the resistance of a resistor is printed throughfour color s strips on the resistor. Each colour has its own significance. 
+**4-band color code of the resistor:** In a 4-band color code, the resistance of a resistor is printed four colored stripes on the resistor. Each color has its own meaning.
 
 <div style="text-align:center;">
     <img src="../../../Assets/Images/resistor color band.jpg" width="550">
 </div>
 
-Each colour has its own value (given in the below table); these values are placed in the following formula, and the value of resistance is determined. 1st, 2nd, and 3rd are the colour codes of the 1st, 2nd, and 3rd colours. The 4th determines the tolerance percentage of the resistor. 
+Each color has its own value (see the table below). To read a 4-band resistor:
 
-Tolerance: Tolerance is a percentage variation that the resistor can have from its actual values. 
+- Bands 1 and 2 give the first two digits.
+- Band 3 is the multiplier (how many zeros to add).
+- Band 4 is the tolerance.
 
-In 5 band and 6 band color codes additional 3rd digit is there rest of the things are same.
+`Resistance = (digit 1 digit 2) × multiplier`
 
-## Colours and their codes
+**Tolerance** is how far the real value may differ from the marked value, as a percentage. Gold means 5%.
+
+In 5-band and 6-band resistors there is an extra digit band (a 3rd digit), and the rest works the same way.
+
+## Colors and Their Codes
 
 <div style="text-align:center;">
     <img src="../../../Assets/Images/Color band table.jpg" width="550">
 </div>
 
-## POTENTIOMETER
+**Worked example:** a resistor with bands red, red, brown, gold.
+
+- Red = 2, so the first digit is 2.
+- Red = 2, so the second digit is 2.
+- Brown = x10, so we multiply by 10.
+- Gold = 5% tolerance.
+
+So the resistance is 22 × 10 = **220 ohm**, give or take 5%.
+
+> The 220 ohm resistor is the one you will use with LEDs to protect them from too much current.
+
+## Potentiometer
 
 <div style="text-align:center;">
     <iframe width="560" height="315"
-        src="https://youtu.be/sWbSeJmUFfw?si=68zhtDhJsoMwkBGF"
+        src="https://www.youtube.com/embed/sWbSeJmUFfw"
         title="YouTube video"
         frameborder="0"
         allowfullscreen>
@@ -54,13 +72,13 @@ A potentiometer, often abbreviated as "pot," is a type of variable resistor used
 <div style="text-align:center;">
     <img src="../../../Assets/Images/pot.jpg" width="350">
 </div>
-A potentiometer has three parts: a track, two fixed ends, and a moving slider.Turning a knob moves the slider, changing the resistance between the slider and one end while keeping the resistance between the slider and the other end constant. 
+A potentiometer has three parts: a track, two fixed ends, and a moving slider. Turning the knob moves the slider along the track. As the resistance between the slider and one end increases, the resistance between the slider and the other end decreases. The total resistance between the two fixed ends always stays the same.
 
 <div style="text-align:center;">
     <img src="../../../Assets/Images/pot internal.jpg" width="350">
 </div>
 
-## LIGHT DEPENDENT RESISTOR - LDR
+## Light Dependent Resistor (LDR)
 
 - LDR stands for "Light-Dependent Resistor" or "Light-Dependent Sensor."
 - It is a passive electronic component that changes its resistance in response to the intensity of incident light. LDRs are also commonly known as photoresistors or photocells.

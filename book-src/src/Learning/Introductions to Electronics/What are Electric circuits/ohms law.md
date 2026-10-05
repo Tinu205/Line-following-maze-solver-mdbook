@@ -3,12 +3,18 @@
 Ohm's Law is a fundamental principle in electronics that helps us understand the relationship between voltage, current, and resistance in an electric circuit. It's named after the German physicist Georg Simon Ohm, who formulated it.
 
 <div style="text-align:center;">
-    <img src="../../../Assets/Images/Ohms-Law-Cartoon .jpg" alt="AC animation" width="450">
+    <img src="../../../Assets/Images/Ohms-Law-Cartoon .jpg" alt="Ohm's law cartoon" width="450">
 </div>
+
+**What is resistance?** Resistance is how much a material opposes (holds back) the flow of current. Think of water in a pipe: a wide pipe lets lots of water through (low resistance), while a narrow pipe lets only a little through (high resistance).
 
 **The mathematical equation of Ohm's Law**
 
 `V = I × R`
+
+We can rearrange it to find the current:
+
+`I = V / R`
 
 Where:
 - **V** represents voltage (measured in volts,V).
@@ -22,6 +28,12 @@ This means:
 - If you increase the resistance (like by narrowing the pipe), the current will decrease at the same voltage.
 
 - If you have a higher resistance, you need a higher voltage to achieve the same current.
+
+**Worked example:** A 5 V supply is connected across a 220 ohm resistor.
+
+`I = V / R = 5 / 220 = 0.0227 A`, which is about **23 mA** (milliamps).
+
+This is the kind of calculation you do to make sure an LED gets a safe amount of current.
 <!-- 
 **Direct Proportionality:**
 
@@ -62,5 +74,5 @@ Simplifying further:
 
 **Explanation of the equation**
 
-This equation shows that power is proportional to the square of the current and the resistance. It also reveals that as either the current or resistance increases, the power consumption increases.
-This is why high-current devices like heaters can consume a lot of power and why using lower-resistance wires can lead to higher power consumption.
+This equation shows that power grows with the square of the current and also with the resistance. It also shows that for the same current, a larger resistance turns more power into heat, and that doubling the current makes four times the power.
+This is why high-current devices like heaters use a lot of power, and why thin, high-resistance wires carrying a big current get warm.

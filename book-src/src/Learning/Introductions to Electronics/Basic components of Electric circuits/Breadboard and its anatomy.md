@@ -1,34 +1,42 @@
-## BREADBOARD
+## Breadboard
+
 A breadboard is an essential tool in electronics used for quickly and easily creating and testing electrical circuits. It consists of a grid of holes that allow components like resistors, LEDs, and wires to be inserted without soldering.
 
 It's an ideal platform for experimentation, prototyping, and learning, as it enables components to be easily moved and rearranged, making it an excellent choice for beginners and professionals to design and test circuits.
 
-Here are the different types of breadboards available to us. The size and type of breadboards are selected based on the user requirements and the application.
+Breadboards come in different sizes, from small ones with a few dozen holes to large ones with hundreds. Choose the size that fits your project. For our robot, a small or medium one is enough.
 
-**Anatomy of a Breadboard**
+## Anatomy of a Breadboard
+
 <div style="text-align:center;">
     <img src="../../../Assets/Images/bread_board_anatomy.jpg" width="450">
 </div>
 
-**Power Rails:** These are rows usually marked as "+ (plus)" and "- (minus)" on the sides of the breadboard. They provide power for your circuit.
+**Power rails:** These are the long strips usually marked "+" (red) and "-" (blue) along the sides of the breadboard. All the holes along one rail are connected, so they give you a handy place to connect power and ground.
 
-**Central Gap:** A break in the middle of the breadboard, which separates the two sides and ensures components on one side do not connect to those on the other side, unless shorted by a conducting wire or device.
+**Central gap:** The channel in the middle of the breadboard. The two halves are not connected to each other. The gap is the right size for an IC (chip) to straddle it, so that the legs on opposite sides don't touch each other. You can connect the two halves with a wire or a component.
 
-**Holes/Grid:** The breadboard has a grid of small holes where components are inserted, making electrical connections.
+**Holes (grid):** The breadboard has a grid of small holes where components are inserted, making electrical connections.
 
-**Horizontal Rows:** Rows of holes that run horizontally, connecting components placed in the same row electrically.
+**Rows:** In the main area, each short row of 5 holes (on each side of the gap) is connected inside. Components placed in the same group of 5 are connected electrically.
 
 The combination of these elements allows you to quickly and easily prototype and experiment with electronic circuits without the need for soldering.
 Components can be inserted into the holes, and wires are used to make connections between components by placing them in appropriate rows.
 
-## Connections on a breadboard
+## Which Holes Are Connected?
 
-**Horizontal Alignment**
+- In the main area, the 5 holes in each short row are connected to each other, but not to the other rows and not across the central gap.
+- On the power rails, all the holes along the long strip are connected.
+- Some larger breadboards have a break in the middle of the power rails, so check yours with a wire if you are unsure.
+
+**Horizontal alignment**
 <div style="text-align:center;">
     <img src="../../../Assets/Images/Horizontal Alignment.jpg" width="450">
 </div>
 
-**Vertical Alignment**
+**Vertical alignment**
 <div style="text-align:center;">
     <img src="../../../Assets/Images/Vertical Alignment.jpg" width="450">
 </div>
+
+> **Try it:** Place an LED so that its two legs are in different rows. Connect a wire to one row and see which other holes are linked to it.

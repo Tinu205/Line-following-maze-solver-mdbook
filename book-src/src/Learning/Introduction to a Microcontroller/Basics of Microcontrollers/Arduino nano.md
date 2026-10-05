@@ -1,5 +1,3 @@
-
-
 ## Arduino Nano
 
 <div style="text-align:center;">
@@ -16,10 +14,9 @@
 
 ## Pin Description of Arduino Nano
 
-<!-- Add labelled Arduino Nano board image here -->
-
 * **Microcontroller:** The brain of the board. It executes your program and controls the input and output devices. [ATmega328P]
 * **Digital Pins:** Configured as either HIGH or LOW, allowing you to interface with digital sensors, LEDs, switches and other devices. [D0 to D13 - 14 digital pins]
+  * **Note:** D0 and D1 are shared with the USB serial connection (RX and TX). Avoid using them for LEDs or sensors while you are uploading code or using the Serial Monitor.
 * **Analog Pins:** Read analog voltage signals from analog sensors like temperature sensors, potentiometers, LDRs, microphones etc. [A0 to A7 - 8 analog pins]
   * A0 to A5 can also be used as digital I/O pins.
   * A6 and A7 are **analog input only**.

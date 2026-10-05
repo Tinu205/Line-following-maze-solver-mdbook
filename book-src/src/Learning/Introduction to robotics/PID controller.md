@@ -4,53 +4,102 @@ The Bang-Bang controller from the last page works, but it has an obvious flaw: i
 
 *Question:* Picture your line-following bot drifting a little bit off the line versus drifting a lot off the line. With a Bang-Bang controller, both cases get exactly the same correction, a full turn one way or the other. Does that sound right to you?
 
-That's the wobble you'll actually see if you try Bang-Bang on a real line follower: it lurches hard left, overshoots the line, lurches hard right, overshoots again. It's always over-correcting, because it never knew *how much* to correct by in the first place.
+That's the wobble you'll see if you try Bang-Bang on a real line follower: it lurches hard left, overshoots the line, lurches hard right, overshoots again. It never knew *how much* to correct by.
+
+## The Big Picture
+
+Here is the block diagram of a PID controller. Don't worry if it looks scary, the next sections explain each piece one at a time.
+
+<div style="text-align:center;">
+    <img src="../../Assets/Images/pid.jpg" width="500">
+</div>
+
+**Further reading:** [PID control video](https://youtu.be/wkfEZmsQqiA)
 
 ## The P (Proportional) Controller
 
 The fix is simple to say: **make the correction proportional to how wrong you are.** A small drift gets a small nudge. A big drift gets a big correction. This is called a **P controller**, P for Proportional.
 
-We start by defining **error**, the difference between where you want to be and where you actually are:
+First we need a number for "how wrong". This is the **error**:
+
+- `target` is where we want the line to be: exactly in the middle, which we call **0**.
+- `current` is where the line really is, measured by the sensors (for example -2 = far left, +2 = far right, see [Putting It Together](Putting%20It%20Together.md)).
 
 ```
-error = target - current
+error = current - target
 ```
 
-For a line follower, `target` is "the line is exactly centered under my sensors," and `current` is how far the line actually is from center. The P controller turns that error straight into a correction:
+Since our target is 0, `error` is simply the measured line position. **Positive error means the line is to the right**, negative means to the left. (This is the same sign rule used on the Putting It Together page.)
+
+The P controller turns that error into a correction:
 
 ```
 correction = Kp * error
 ```
 
-`Kp` is a number you choose yourself, called the **proportional gain**. It controls how aggressively the bot reacts, turn `Kp` up and small drifts cause big corrections; turn it down and the bot barely reacts at all.
+`Kp` is a number you choose yourself, called the **proportional gain**. It controls how strongly the bot reacts: turn `Kp` up and small drifts cause big corrections; turn it down and the bot barely reacts.
+
+Then the correction is added to one wheel and taken from the other, so the bot turns **toward** the line:
+
+```
+leftMotorSpeed  = baseSpeed + correction
+rightMotorSpeed = baseSpeed - correction
+```
+
+### A worked example
+
+Let `baseSpeed = 150` and `Kp = 10`.
+
+| Cycle | Line position (error) | correction = Kp x error | Left motor | Right motor | What happens |
+| --- | --- | --- | --- | --- | --- |
+| 1 | +2 (far right) | +20 | 170 | 130 | curves right, toward the line |
+| 2 | +1 (a bit right) | +10 | 160 | 140 | still curving right, but gentler |
+| 3 | 0 (centered) | 0 | 150 | 150 | goes straight |
+| 4 | -1 (a bit left) | -10 | 140 | 160 | curves left, back to center |
+
+See how the correction shrinks as the error shrinks? That is the "proportional" part.
 
 *Question:* What do you think happens if `Kp` is set too high?
 
-If `Kp` is too large, even a tiny error produces a huge correction, and the bot swings past the line, then swings back past it the other way. That's **overshoot**, and if it keeps happening every cycle, you get oscillation again, smoother than Bang-Bang's wobble, but still a wobble. Set `Kp` too low, and the bot barely notices it's drifting, and takes forever to correct.
+If `Kp` is too large, even a tiny error produces a huge correction, and the bot swings past the line, then swings back past it the other way. That's **overshoot**, and if it keeps happening you get oscillation (a wobble), smoother than Bang-Bang but still a wobble. If `Kp` is too low, the bot barely notices it's drifting and takes forever to correct.
 
 ## Adding D: Damping the Wobble
 
-Even with a carefully tuned `Kp`, a plain P controller tends to overshoot the target, correct back, overshoot again, each swing a little smaller, until it finally settles. That happens because P only ever looks at the error *right now* — it has no idea whether that error is growing or shrinking, so it can't tell "I'm about to reach the line, ease up" from "I'm still far away, keep going."
+Even with a carefully tuned `Kp`, a plain P controller tends to overshoot, correct back, overshoot again, each swing a little smaller. That's because P only looks at the error *right now*. It can't tell "I'm about to reach the line, ease up" from "I'm still far away, keep going."
 
-That's what the **D (Derivative)** term is for. It looks at how fast the error is changing:
+The **D (Derivative)** term looks at how fast the error is changing. In code, it is just the difference between this error and the last one:
 
 ```
-correction = Kp * error + Kd * (change in error)
+derivative = error - previous_error     // runs once per loop, so each step is the same length of time
+correction = Kp * error + Kd * derivative
+previous_error = error                  // remember it for the next cycle
 ```
 
-If the error is shrinking quickly, the D term pulls back on the correction, acting like a brake as you approach the target and cutting down on overshoot. Think of the difference between slamming the brakes only once you're already at the red light, versus easing off the accelerator as you see it coming up ahead.
+Continuing our example with `Kd = 5`. In cycle 1 the error was 2, and in cycle 2 it is 1:
+
+- `derivative = 1 - 2 = -1` (the error is shrinking)
+- `correction = 10 x 1 + 5 x (-1) = 5`
+
+Without D the correction would be 10, now it is only 5. D is pulling back like a brake as the bot approaches the line. Think of easing off the accelerator as you see a red light ahead, instead of slamming the brakes at the last moment.
+
+(The loop should run at a steady speed, so that "difference between two readings" always means the same amount of time.)
 
 ## Adding I: Erasing the Leftover Error
 
-There's one more problem P and D together still don't solve: sometimes a small, steady error refuses to go away, called **steady-state error**. Maybe a bit of friction or a slight mechanical misalignment keeps nudging the bot a little off-center, and the error is too small for P to bother correcting.
+Sometimes a small, steady error refuses to go away, called **steady-state error**. For example, friction or a slightly weaker motor keeps the bot a little off-center. A tiny error gives a tiny `Kp * error` correction, too small to overcome the friction in the motors, so the bot just stays off-center.
 
-The **I (Integral)** term fixes this by keeping a running total of the error over time:
+The **I (Integral)** term fixes this by keeping a running total of the error:
 
 ```
-correction = Kp * error + Ki * (running total of error) + Kd * (change in error)
+integral = integral + error
+correction = Kp * error + Ki * integral + Kd * derivative
 ```
 
-Even a tiny error, if it hangs around long enough, keeps adding up in that running total until the I term forces a correction big enough to finally erase it.
+Even a tiny error, if it hangs around long enough, keeps adding up until the I term pushes hard enough to erase it.
+
+**Warning (windup):** if the bot is off the line for a long time, `integral` grows huge, and afterwards the bot overreacts for a long while. This is called *integral windup*. Limit it, for example with `integral = constrain(integral, -100, 100)`.
+
+Because of this, most line followers use a very tiny `Ki`, or `Ki = 0` (which makes it a PD controller). That works well for most robots.
 
 ## PID: All Three Together
 
@@ -62,10 +111,15 @@ Put P, I, and D together and you get a **PID controller**, one of the most widel
 | I (Integral) | how long you've been wrong | small errors that never go away |
 | D (Derivative) | how fast the error is changing | overshoot and oscillation |
 
-Tuning a PID controller means finding the right `Kp`, `Ki`, and `Kd` for your specific bot. Too much of any one term and you get a different flavour of instability; too little and the bot barely reacts at all. You'll get hands-on with exactly this tuning in the upcoming tasks.
+## How to Tune It
 
-<div style="text-align:center;">
-    <img src="../../Assets/Images/pid.jpg" width="500">
-</div>
+Tuning means finding the right `Kp`, `Ki`, and `Kd` for your specific bot. Follow this recipe:
 
-**Further reading:** [PID control video](https://youtu.be/wkfEZmsQqiA)
+1. Set `Ki = 0` and `Kd = 0`. Use a slow, safe `baseSpeed`.
+2. Slowly raise `Kp` until the bot follows the line but starts to wobble from side to side.
+3. Reduce `Kp` a little, until the wobble just stops.
+4. Now raise `Kd` slowly until the bot follows the line smoothly, even on curves.
+5. Only if the bot still sits slightly off-center, add a very small `Ki`.
+6. Once it works, try a higher `baseSpeed` and tune again.
+
+Change one number at a time, and write down what you tried. You'll practise this in the upcoming tasks.

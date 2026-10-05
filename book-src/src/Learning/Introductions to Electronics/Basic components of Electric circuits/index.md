@@ -1,26 +1,31 @@
 
 
-Welcome, future electrical wizards! Let's embark on an electrifying adventure as we unravel the building blocks of your favourite devices.
-## ACTIVE AND PASSIVE COMPONENTS
+Welcome, future electrical wizards! Let's embark on an electrifying adventure as we unravel the building blocks of your favorite devices.
+
+## Active and Passive Components
+
 Active and passive components are the foundational elements of electronic circuits.
 
 **Active Components**
 
-Deliver and manipulate power.
+These can control the flow of electricity and can boost (amplify) a signal.
 
-Examples: transistors, solar cells, generators.
-- Provide power gain in circuits.
-- Control the flow of current.
-- Some require an external power source for operation.
+Examples: transistors, ICs, and power sources like batteries and solar cells.
+
+- Can provide power gain (a small signal controls a bigger one).
+- Actively control the flow of current.
+- Most need an external power source to work.
 
 **Passive Components**
-Absorb, store, or convert power.
 
-Examples: resistors, capacitors, and inductors.
+These absorb, store or convert power, but cannot boost a signal.
+
+Examples: resistors, capacitors and inductors.
+
 - Act as loads in circuits.
-- Do not provide power gains.
+- Do not provide power gain.
 - Do not actively control the current flow.
-- Do not require an external power source for operation.
+- Do not need an external power source to work.
 
 Let's refer to the table below for various types of active and passive components.
 

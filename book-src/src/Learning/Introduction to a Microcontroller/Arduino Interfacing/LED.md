@@ -8,7 +8,7 @@ So an LED has only two states, either on or off, so it's a digital device. As we
 
 As we know, an LED has an anode and a cathode. We'll connect the anode to the positive side and the cathode to the negative side.
 
-Connect the anode to any digital pin on the Arduino Nano, and the cathode to the ground pin, but not directly — we route it through a resistor first, just like in the [Resistors](../../Introductions%20to%20Electronics/Basic%20components%20of%20Electric%20circuits/resistors.md) page. Without it, the LED would draw more current than it can safely handle.
+Connect the anode to any digital pin on the Arduino Nano, and the cathode to the ground pin, but not directly — we route it through a resistor first, just like in the [Resistors](../../Introductions%20to%20Electronics/Basic%20components%20of%20Electric%20circuits/resistors.md) page. Without it, the LED would draw more current than it can safely handle. A **220 ohm** resistor is a good value to start with.
 
 >Note the pins starting with D are digital pins and pins starting with A are analog pins, and the number next to the letter represents the pin number.
 
@@ -22,20 +22,17 @@ Now let's get into the coding part. As we've seen in [Structure of Arduino Progr
 
 ```cpp
 void setup() {
-  pinMode(2, OUTPUT); // Since LED is an output device
+  pinMode(2, OUTPUT);  // Since LED is an output device
 }
 
 void loop() {
   digitalWrite(2, HIGH);
   delay(1000);
-  digitalWrite(2,LOW);
+  digitalWrite(2, LOW);
   delay(1000);
-
 }
-
 ```
 
-
-Now I'd suggest trying multiple LEDs, or changing the delay intervals.
+> 💡 **Try it.** Add more LEDs on other pins, or change the delay intervals and see what happens.
 
 **Next up:** [RGB LED](RGBLED.md)

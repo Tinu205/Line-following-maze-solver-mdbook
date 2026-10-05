@@ -1,25 +1,34 @@
 ## SENSE-THINK-ACT
 
-The "Sense-Think-Act" paradigm is a framework that describes the fundamental process by which robots interact with their environment. It can be broken down into three key stages:
+The "Sense-Think-Act" paradigm (a fancy word for "way of thinking") describes how a robot interacts with the world. It has three stages, repeated again and again:
 
 <div style="text-align:center;">
     <img src="../../Assets/Images/sense-think-act.jpg" width="250">
 </div>
 
-**1. Sense:**
-In this stage, robots gather information about their surroundings using various sensors.
-These sensors could include cameras, touch sensors, gyroscopes, accelerometers, and more.
-The goal is for the robot to perceive and understand its environment, collecting data on aspects such as distance, light, sound, and object recognition.
-**2. Think:**
-After sensing the environment, the robot processes and interprets the gathered data.
-This involves using algorithms and computational power to make sense of the sensory input.
-The robot's "thinking" stage includes tasks such as recognizing patterns, identifying objects, assessing the current situation, and making decisions based on its programming or learned behavior.
-**3. Act:**
-Once the robot has processed the information and made decisions, it takes action based on its understanding of the environment.
-This could involve moving its physical components (motors, limbs, etc.) or initiating other activities.
-The ultimate goal is for the robot to perform specific tasks or respond to its surroundings in an appropriate and effective manner.
+**1. Sense**
 
-This paradigm reflects the cyclical nature of robotic interaction with the world, where sensing informs thinking and thinking guides actions.
+- The robot gathers information about its surroundings using sensors.
+- Sensors could be cameras, touch sensors, distance sensors and more.
+- The goal is to measure things like distance, light or sound.
 
-It is a foundational concept in robotics, influencing the design and programming of robots to enable them to operate autonomously or semi-autonomously in diverse environments.
+**2. Think**
 
+- The robot processes the information it collected.
+- It uses a program (an algorithm) running on its controller to understand the situation.
+- Then it makes a decision based on its program.
+
+**3. Act**
+
+- The robot carries out the decision.
+- This usually means moving something, like turning motors or wheels.
+
+This is a loop: sensing informs thinking, and thinking guides acting. Then the robot senses again to see what its action changed.
+
+## Example: Our Line Follower
+
+- **Sense:** the IR sensors read the floor and say where the black line is.
+- **Think:** the PID controller works out how much to steer, and LSRB decides which way to go at a junction.
+- **Act:** the motors speed up or slow down, so the bot turns toward the line.
+
+This happens hundreds of times every second!

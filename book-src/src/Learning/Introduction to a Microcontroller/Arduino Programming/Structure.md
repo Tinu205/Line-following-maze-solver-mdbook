@@ -6,7 +6,7 @@ The structure of Arduino code follows a specific format to ensure proper executi
 
 Start your code with the `#include` directive to import the necessary libraries and their functions.
 
-* **Syntax:** `#include <library_name.h>`
+* **Syntax:** `#include <LibraryName.h>`
 * **Example:** `#include <Servo.h>` for controlling servo motors.
 
 ## 2. Variable Declarations
@@ -51,13 +51,14 @@ Create user-defined functions to encapsulate specific tasks and make code more m
 // You can add comments to explain your code
 
 // Libraries: Include any libraries your sketch may need
-#include <LibraryName.h>
+// (Remove this line if you do not use a library.)
+#include <Servo.h>
 
 // Constants: Define any constants used in your sketch
 const int ledPin = 13;
 
 // Variables: Declare any variables used in your sketch
-int sensorValue;
+int sensorValue = 0;
 
 // Setup: This function runs once when the Arduino is powered on or reset
 void setup() {
@@ -70,6 +71,7 @@ void setup() {
 void loop() {
   // Loop code goes here
   sensorValue = analogRead(A0);  // Read an analog sensor value, for example
+  Serial.println(sensorValue);   // Show it on the Serial Monitor
 
   digitalWrite(ledPin, HIGH);    // Turn on the LED
   delay(1000);                   // Wait for 1 second
@@ -79,3 +81,5 @@ void loop() {
   // Add more code as needed for your specific application
 }
 ```
+
+**Next up:** [Arduino Interfacing](../Arduino%20Interfacing/index.md)

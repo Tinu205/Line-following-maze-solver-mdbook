@@ -14,7 +14,7 @@ void setup() {
 }
 ```
 
-`9600` means 9600 bits per second. It's a common default, and as long as the Serial Monitor on your computer is also set to 9600, the two sides understand each other.
+`9600` means 9600 bits per second. It's a common default. The baud rate in your code **must match** the one chosen in the Serial Monitor (9600). If they don't match, you will see garbled characters or nothing at all.
 
 ### Sending data
 
@@ -44,17 +44,18 @@ void setup() {
 
 void loop() {
   int value = digitalRead(2);
-  if (value == 0) {
+  if (value == LOW) {
     digitalWrite(8, HIGH);
     Serial.println("Button pressed");
   } else {
     digitalWrite(8, LOW);
     Serial.println("Button released");
   }
+  delay(100);  // slow down the printing so it is easy to read
 }
 ```
 
-Now every press and release shows up as a line of text, in real time, on your computer — exactly the kind of visibility you'll rely on once you're staring at raw sensor numbers later in this course.
+Now the sketch prints a line about ten times a second, saying whether the button is pressed or released, in real time, on your computer — exactly the kind of visibility you'll rely on once you're staring at raw sensor numbers later in this course.
 
 > 💡 **Try it.** Add a line that also prints the raw `value` (0 or 1) alongside the message, so you can see the actual number behind the HIGH/LOW state.
 

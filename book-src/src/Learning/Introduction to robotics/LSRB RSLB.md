@@ -36,7 +36,18 @@ The trick is to pick a fixed order of preference and always stick to it. The two
 
 *Question:* Why does it matter so much that the bot uses the same order every single time, instead of picking a direction at random?
 
-Because a fixed order is exactly what guarantees the bot will eventually solve the maze. LSRB is really the "keep your left hand on the wall" trick people use in real mazes: if you always keep one hand on the same wall and never let go, you'll eventually trace your way out of any simple maze. RSLB is the same trick, just with your right hand. Pick randomly, and there's no such guarantee, your bot could wander the same loop forever.
+Because a fixed order is what makes the bot's behaviour predictable. LSRB is really the "keep your left hand on the wall" trick people use in real mazes: if you always keep one hand on the same wall and never let go, you follow the wall all the way along. RSLB is the same trick, just with your right hand. Pick randomly, and your bot could wander the same loop forever.
+
+### What does LSRB actually guarantee?
+
+Here is the honest answer, because it depends on the kind of maze.
+
+A **simple maze** is one with no loops and no islands: every wall (or line) is connected, one way or another, to the outer boundary. Think of a maze drawn as a tree with branches, where there is only one way to get from the start to any other place.
+
+- **In a simple maze**, LSRB (or RSLB) will always reach the end, as long as the end is reachable. It may take a long, wandering route, so it is **not** guaranteed to be the shortest.
+- **In a maze with loops**, the left-hand rule can fail. If the exit is on a wall that is *not* connected to the outer boundary (an island), your hand just goes round and round the island forever. The bot would circle for ever.
+
+So for our maze, we assume it is a simple maze. Then "never guess, always follow the order" is enough to solve it.
 
 ## Walking Through an Example
 
@@ -90,6 +101,55 @@ The usual fix is to commit to the turn: once the bot decides to turn left (or ri
 | --- | --- | --- |
 | LSRB | Left → Straight → Right → Back | keep your left hand on the wall |
 | RSLB | Right → Straight → Left → Back | keep your right hand on the wall |
+
+## Trace It Yourself
+
+Here is a tiny maze. The bot starts at **S** heading **north** (up the page). **A** and **B** are dead ends, **E** is the end square.
+
+```
+        E ---- J1 ---- B
+                |
+        C ---- J2 ---- D
+                |
+                S
+```
+
+J2 is a cross (left, straight and right are all open). J1 is a T: you can go left (toward E) or right (toward B), but not straight.
+
+*Question:* Using LSRB, write down the decision the bot makes each time it reaches a junction or a dead end. Remember Left and Right depend on the way the bot is facing.
+
+<details>
+<summary>Show the answer</summary>
+
+1. At **J2**, heading north: Left is open, so turn **L** and go to C.
+2. At **C**, a dead end: **B** (U-turn) and head back east.
+3. At **J2** again, now heading east: Left is north, and it is open, so turn **L** and go to J1.
+4. At **J1**, heading north: Left is west, and it is open, so turn **L**. That leads to **E**, the end!
+
+The bot never visited D or B. Its recorded path is **L, B, L, L**.
+
+</details>
+
+## Next Level: Recording and Shortening the Path (Optional)
+
+Look at the answer above. The bot wasted time going into the dead end at C. If the bot **records** every decision (L, S, R, B) as it goes, it can clean up the list afterwards and run the maze a second time much faster, skipping every dead end.
+
+The idea: any time a **B** (U-turn) shows up, the three moves around it, like `L B L`, are really a detour that ends up pointing the same way as some simpler single move. Replace the three with that single move:
+
+| Recorded | Replace with | Why |
+| --- | --- | --- |
+| L B R | B | a detour that ends up facing back |
+| L B S | R | |
+| R B L | B | |
+| S B L | R | |
+| S B S | B | |
+| L B L | S | two left turns around a dead end just point straight |
+
+(A neat trick for checking: count L as -90 degrees, S as 0, R as +90 and B as 180, add them up, and the total tells you the single move. For L B L: -90 + 180 - 90 = 0, which is S.)
+
+Applying this to our run: **L B L L** becomes **S L**. On the second run the bot goes straight at J2 and turns left at J1, with no dead-end detour. If the list still has a B in it after one pass, keep simplifying until none are left.
+
+This is an optional extra: first make sure your bot can solve the maze once.
 
 **Further reading:**
 - [Pololu's line maze algorithm guide](https://www.pololu.com/file/0j195/line-maze-algorithm.pdf)

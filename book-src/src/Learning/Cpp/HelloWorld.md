@@ -6,24 +6,46 @@ This is where you start actually writing C++. We'll go one idea at a time across
 
 ## Hello World
 
-This is the first program almost all beginners write while learning a new programming language. As a beginner you're not expected to understand what this does just by glancing at it. We'll start dissecting the code and understand what each line does soon.
+This is the first program almost all beginners write while learning a new programming language. You're not expected to understand it just by glancing at it. We'll take it apart line by line.
 
 ```cpp
 #include <iostream>
 
-
 int main() {
-    std::cout << "Hello, world!" << endl;
+    std::cout << "Hello, world!" << std::endl;
     return 0;
 }
 ```
 
-- The `#include` is called preprocessor directive which indicates that we would like to use the contents of the iostream library, which is the part of the C++ standard library that allows us to read and write text from/to the console. We need this line in order to use std::cout . Excluding this line would result in a compile error, as the compiler wouldn't otherwise know what std::cout is.
-- `main()` is where the computer starts reading your instructions and `int` before main is the return type of the main function in the further lessons we'll see how to use them for various functions.
-- `std::cout <<` sends things to the screen; `endl` moves to a new line.
+**Output:**
+
+```
+Hello, world!
+```
+
+- `#include` is called a preprocessor directive. It says we want to use the `iostream` library, the part of the C++ standard library that lets us read and write text from/to the console. We need this line to use `std::cout`. Without it, the compiler wouldn't know what `std::cout` is and you'd get a compile error.
+- `main()` is where the computer starts reading your instructions. The `int` before `main` is the type of value it gives back when it finishes (a whole number). We'll see more about this in [Functions](Functions.md).
+- `std::cout <<` sends things to the screen, and `std::endl` moves to a new line.
+- `return 0;` tells the computer the program finished without problems.
 - Every instruction ends with a semicolon, and `{ }` holds a group of instructions together.
 
-> **Try it yourself** — paste this into the [Programiz online compiler](https://www.programiz.com/cpp-programming/online-compiler/) and hit run. Then change the text inside the quotes and run it again.
+## Saving some typing: `using namespace std;`
+
+Writing `std::` before everything gets tiring. The `std::` part says "this comes from the standard library". If you add the line `using namespace std;` once, near the top, you can drop it:
+
+```cpp
+#include <iostream>
+using namespace std;
+
+int main() {
+    cout << "Hello, world!" << endl;
+    return 0;
+}
+```
+
+Both programs do exactly the same thing. **From now on, every example in this series uses `using namespace std;`**, so you will see plain `cout`, `cin` and `endl`.
+
+> 💡 **Try it yourself** — paste this into the [Programiz online compiler](https://www.programiz.com/cpp-programming/online-compiler/) and hit run. Then change the text inside the quotes and run it again. Finally, delete the `using namespace std;` line and read the error message you get. Seeing an error once makes it much less scary later.
 
 ## Quick reference
 

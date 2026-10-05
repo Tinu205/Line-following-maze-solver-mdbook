@@ -24,12 +24,12 @@ Once in digital form, signals can be processed, manipulated, and analyzed more e
 
 Digital signals are less susceptible to noise and interference compared to analog signals. Therefore, converting analog signals to digital before transmission over long distances helps maintain signal integrity.
 
-## ANALOG DIGITAL CONVERTER
+## Analog-to-Digital Converter
 An Analog-to-Digital Converter (ADC) is an electronic device or circuit that converts analog signals into digital signals. The primary function of an ADC is to take continuous, varying analog signals and transform them into discrete digital values, typically represented in binary form (0s and 1s).
 
 This conversion is essential for interfacing analog signals with digital systems, such as microcontrollers, computers, and digital signal processors.
 
-### Process of Analog digital converter
+### The process of analog-to-digital conversion
 <div style="text-align:center;">
     <img src="../../../Assets/Images/SQE.png" width="250">
 </div>

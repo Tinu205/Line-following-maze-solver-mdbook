@@ -1,4 +1,4 @@
-## What is the idea of voltage?
+## What Is Voltage?
 
 Voltage is like the **"push"** that makes electricity flow. It's a measure of how much energy an electrical source has and how strongly it pushes electrons through a circuit.
 A higher voltage corresponds to a more potent push.
@@ -22,3 +22,8 @@ Consider the analogy of voltage to water flow in a tank. The height of the water
 
 The higher the water level, the greater the potential energy stored in the tank. Now, if you make a small hole at the bottom of the tank, water will flow out. The rate at which water flows out depends on the height of the water level. A higher water level (greater potential difference) will result in a stronger and faster flow, while a lower water level (lower potential difference) will lead to a slower and weaker flow.
 
+
+
+**Typical voltages:** a single AA cell gives about 1.5 V, a phone battery about 3.7 V, and the Arduino works at 5 V.
+
+Voltage is the push, and **current** is the flow that results. How much current flows for a given push depends on the **resistance** of the circuit. You will see how all three connect in Ohm's Law.

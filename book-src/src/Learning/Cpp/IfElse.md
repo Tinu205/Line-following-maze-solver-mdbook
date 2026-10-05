@@ -1,15 +1,15 @@
 # If-Else
 
-In programming we often need our program to make decision based on a situation. For example, think about deciding wheter to carry an umbrella. 
+In programming we often need our program to make decisions based on a situation. For example, think about deciding whether to carry an umbrella.
 
-You might think "if it's raining I'll take if it isn't I won't ".
+You might think: "If it's raining, I'll take it. If it isn't, I won't."
 
 <div style="text-align: center;">
     <img src="../../Assets/Images/if-else.png" width="450">
 </div>
 
 
-Similarly `if` asks a yes/no question and runs a block of code only when the answer is yes and `else` covers every other case.
+Similarly, `if` asks a yes/no question and runs a block of code only when the answer is yes and `else` covers every other case.
 
 ```cpp
 #include <iostream>
@@ -23,6 +23,12 @@ int main(){
         cout << "Fail" << endl;
     }
 }
+```
+
+**Output:**
+
+```
+Pass
 ```
 
 The question inside the brackets is built with comparison operators.
@@ -47,17 +53,23 @@ using namespace std;
 int main(){
     int marks = 82;
     if (marks >= 90) {
-        cout << "Grade A";
+        cout << "Grade A" << endl;
     } else if (marks >= 75) {
-        cout << "Grade B";
+        cout << "Grade B" << endl;
     } else if (marks >= 60) {
-        cout << "Grade C";
+        cout << "Grade C" << endl;
     } else if (marks >= 40) {
-        cout << "Grade D";
+        cout << "Grade D" << endl;
     } else {
-        cout << "Needs improvement";
+        cout << "Needs improvement" << endl;
     }
 }
+```
+
+**Output** (with `marks = 82`):
+
+```
+Grade B
 ```
 
 Join two questions with `&&` (both must be true), `||` (either one is enough) or `!` (flip the answer).
@@ -80,9 +92,14 @@ int main(){
 }
 ```
 
-**Try it.** Read a number and print whether it is positive, negative or zero. Then extend it: read three numbers and print the largest.
+**Output:**
 
-> **Try it yourself** — run every branch of your grade checker in the [Programiz online compiler](https://www.programiz.com/cpp-programming/online-compiler/) by testing marks of 95, 80, 65, 45 and 20.
+```
+Teenager
+Holiday
+```
+
+> 💡 **Try it yourself** — change `marks` in the grade checker and run every branch in the [Programiz online compiler](https://www.programiz.com/cpp-programming/online-compiler/): test marks of 95, 80, 65, 45 and 20. Then write a new program that reads a number and prints whether it is positive, negative or zero. For a challenge, read three numbers and print the largest.
 
 ## Quick reference
 

@@ -18,7 +18,7 @@
 
 - The USB connectivity simplifies both programming and power supply, eliminating the need for external power sources.
 
-## PIN DESCRIPTION OF ARDUINO UNO R3
+## Pin Description of Arduino Uno R3
 <div style="text-align:center;">
     <img src="../../../Assets/Images/Anatomy of Arduino.jpg" width="350">
 </div>
@@ -37,7 +37,7 @@
 
 - **USB Interface Chip:** Manages communication between the microcontroller and computer.
 
-- **Reset Button:** This button restarts your programme running on the microcontroller. 
+- **Reset Button:** This button restarts your program running on the microcontroller. 
 
 - **Crystal Oscillator:** Clock Signal - usually 16MHz [provides precise timing]
 
@@ -45,14 +45,14 @@
 
 - **TX/RX LEDs:** Indicate data transmission over the serial communication interface.
 
-## PIN CONFIGURATION OF ARDUINO UNO R3
+## Pin Configuration of Arduino Uno R3
 <div style="text-align:center;">
     <img src="../../../Assets/Images/Arduino pin out diagram.jpg" width="450">
 </div>
 
 - **Power Pins:** Provide voltage and ground for external components. Vin accepts external power (7-12V), 5V and 3.3V supply regulated power, and GND is the ground reference.
 
-- **Reset:** Resets the microcontroller. It is useful for restarting code execution or troubleshooting erratic behaviour in Arduino projects.
+- **Reset:** Resets the microcontroller. It is useful for restarting code execution or troubleshooting erratic behavior in Arduino projects.
 
 - **Digital Pins:** Handles digital signals (0 or 1). Used for both input and output, enabling communication with digital devices like sensors, LEDs, and switches.
 
