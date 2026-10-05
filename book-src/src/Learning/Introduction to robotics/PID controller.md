@@ -67,3 +67,5 @@ Tuning a PID controller means finding the right `Kp`, `Ki`, and `Kd` for your sp
 <div style="text-align:center;">
     <img src="../../Assets/Images/pid.jpg" width="500">
 </div>
+
+**Further reading:** [PID control video](https://youtu.be/wkfEZmsQqiA)
