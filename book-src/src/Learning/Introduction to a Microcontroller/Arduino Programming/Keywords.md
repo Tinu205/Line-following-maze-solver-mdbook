@@ -5,7 +5,7 @@
 When you read Arduino code, you will notice a handful of words again and again. They are not all the same kind of thing, though. It helps to sort them into three groups:
 
 1. **Keywords and types**: words that are part of the C++ language itself.
-2. **Built-in functions**: ready-made actions that Arduino gives you.
+2. **Built-in functions**: ready made actions that Arduino gives you.
 3. **Predefined constants**: named values like `HIGH` and `OUTPUT`.
 
 ## 1. Keywords and data types
@@ -53,7 +53,7 @@ These are names that stand for fixed values. By convention they are written in C
 
 * `HIGH`, `LOW` : the two digital levels (5V and 0V)
 * `INPUT`, `OUTPUT` : used with `pinMode()`
-* `INPUT_PULLUP` : an input with the Arduino's built-in pull-up resistor turned on
+* `INPUT_PULLUP` : an input with the Arduino's built in pull-up resistor turned on
 * `LED_BUILTIN` : the pin number of the small LED on the board (pin 13 on the Nano)
 
 ## Quick example

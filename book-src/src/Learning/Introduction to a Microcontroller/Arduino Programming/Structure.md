@@ -34,14 +34,14 @@ Declare variables to store data used in your program.
 
 ## 5. Functions (Optional)
 
-Create user-defined functions to encapsulate specific tasks and make code more modular.
+Create user defined functions to encapsulate specific tasks and make code more modular.
 
 * **Structure:** `return_type function_name(parameters) { ... }`
 * Call them from `setup()` or `loop()` as needed.
 
 ## 6. Comments
 
-* Use `//` for single-line comments or `/* */` for multi-line comments.
+* Use `//` for single line comments or `/* */` for multi line comments.
 * Explain code sections for clarity and maintainability.
 
 ## Example
