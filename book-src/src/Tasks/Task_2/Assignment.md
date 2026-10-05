@@ -4,15 +4,16 @@ Same simulator, new skill: instead of just reading and running code, you're wiri
 
 ## What to build
 
-1. **Traffic Light** (digital I/O) — three LEDs (red, yellow, green) that cycle on and off in sequence, each held for a fixed delay, using `digitalWrite()` and `delay()`.
+1. **Traffic Light** (digital I/O) — three LEDs (red, yellow, green) that cycle on and off in sequence, each held for a fixed delay (100ms), using `digitalWrite()` and `delay()`.
 >Note: To change the color of led after adding it to the sketch area right click on it and and under properties change the color option.
 
 2. **Blinking LED on command** (Serial communication) — an LED that only turns on or off when you send a command through the Serial Monitor.
+>The led should glow when command ON is passed on the serial monitor and the led should turn off when command OFF is passed on to the serial monitor.
 
 3. **LED brightness** (PWM) — smoothly fade an LED up and down using `analogWrite()`.
 
 4. **Potentiometer-controlled brightness** (analog input) — read a potentiometer with `analogRead()` and use that value to set the LED's brightness in real time.
-
+>The video demonstration should contain both cranking up and down of the brightness.
 
 ## How to record your video
 
