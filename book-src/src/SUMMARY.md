@@ -53,6 +53,7 @@
     - [Bang bang controller](./Learning/Introduction%20to%20robotics/Bang%20bang%20controller.md)
     - [PID controller](./Learning/Introduction%20to%20robotics/PID%20controller.md)
     - [LSRB / RSLB](./Learning/Introduction%20to%20robotics/LSRB%20RSLB.md)
+    - [Putting It Together](./Learning/Introduction%20to%20robotics/Putting%20It%20Together.md)
 
 - [Software setup]()
   - [Arduino ide installation](./Software%20Setup/Arduino_ide.md)

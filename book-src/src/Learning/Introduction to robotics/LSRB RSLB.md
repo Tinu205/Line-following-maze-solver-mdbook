@@ -94,3 +94,5 @@ The usual fix is to commit to the turn: once the bot decides to turn left (or ri
 **Further reading:**
 - [Pololu's line maze algorithm guide](https://www.pololu.com/file/0j195/line-maze-algorithm.pdf)
 - [Coding a line follower robot using LSRB and finding the shortest path](https://towardinfinity.medium.com/coding-a-line-follower-robot-using-lsrb-and-finding-the-shortest-path-d906ffec71d)
+
+**Next up:** [Putting It Together](Putting%20It%20Together.md) — the full pseudocode combining PID and LSRB/RSLB into one algorithm.
