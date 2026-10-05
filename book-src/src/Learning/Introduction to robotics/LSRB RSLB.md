@@ -19,6 +19,10 @@ Recognizing *that* you're at a junction is only half the problem. The other half
 
 ## Priority Rules: LSRB and RSLB
 
+<div style="text-align:center;">
+    <img src="../../Assets/Images/maze.png" width="250">
+</div>
+
 The trick is to pick a fixed order of preference and always stick to it. The two most common orders are:
 
 **LSRB — Left, Straight, Right, Back.** At every junction, check each direction in this exact order, and take the first one that's open:
@@ -36,19 +40,45 @@ Because a fixed order is exactly what guarantees the bot will eventually solve t
 
 ## Walking Through an Example
 
-Say your bot, running LSRB, reaches a T-junction where it can go either left or right, but not straight.
+Let's trace a real run through a maze, one decision at a time. Remember: Left, Straight and Right are always relative to the direction the bot is currently facing, not fixed compass directions.
 
-- Is **Left** open? Yes. Turn left, done. It never even checks Right.
+<div style="text-align:center;">
+    <img src="../../Assets/Images/lsrb_1.png" width="250">
+</div>
 
-Now say it reaches a cross junction, with left, straight, and right all open.
+**Decision 1.** The bot arrives at this junction heading west. Checking in LSRB order: is Left open? Yes, a path heads south from here, so it turns and heads down.
 
-- Is **Left** open? Yes. Turn left, done.
+<div style="text-align:center;">
+    <img src="../../Assets/Images/lsrb_2.png" width="250">
+</div>
 
-Same bot, running RSLB instead, at that same cross junction:
+**Decision 2.** That path is a dead end, Left, Straight and Right are all blocked. The only option left is Back, so the bot does a U-turn and heads north again.
 
-- Is **Right** open? Yes. Turn right, done.
+<div style="text-align:center;">
+    <img src="../../Assets/Images/lsrb_3.png" width="250">
+</div>
 
-Same maze, same junction, completely different path, all because of which priority order the bot was told to follow.
+**Decision 3.** Back at the same junction, now heading north. Left (which is west from here) is open, so it turns and heads west.
+
+<div style="text-align:center;">
+    <img src="../../Assets/Images/lsrb_4.png" width="250">
+</div>
+
+**Decision 4.** At the next junction, still checking Left first: heading west, Left is south, and it's open. Down it goes again.
+
+<div style="text-align:center;">
+    <img src="../../Assets/Images/lsrb_5.png" width="250">
+</div>
+
+**Decision 5.** Another dead end. Just like before, Left, Straight and Right are all blocked, so it's Back again, turning to head north.
+
+<div style="text-align:center;">
+    <img src="../../Assets/Images/lsrb_6.png" width="250">
+</div>
+
+**Decision 6.** Back at that junction, heading north, and this time Straight is open. The bot carries straight on, no turn needed.
+
+Six decisions, and notice the pattern: the bot never once guessed. At every junction it just worked through Left, then Straight, then Right, then Back, in that exact order, and whichever one was open first won.
 
 ## Turning Without Losing the Line
 
@@ -60,3 +90,5 @@ The usual fix is to commit to the turn: once the bot decides to turn left (or ri
 | --- | --- | --- |
 | LSRB | Left → Straight → Right → Back | keep your left hand on the wall |
 | RSLB | Right → Straight → Left → Back | keep your right hand on the wall |
+
+**Further reading:** [Pololu's line maze algorithm guide](https://www.pololu.com/file/0j195/line-maze-algorithm.pdf)
