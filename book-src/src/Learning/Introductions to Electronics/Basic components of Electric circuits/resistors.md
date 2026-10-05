@@ -1,7 +1,7 @@
 ## Resistors
 Have you ever thought about how your gadgets get just the right amount of electric power they need without getting overloaded? Let's dive into the world of resistors to find out the secret behind them!
 
-Resistors are fundamental electronic components that are used to limit or control the flow of electric current in a circuit. They are passive two-terminal devices with the primary purpose of providing resistance to the flow of electrical current.
+Resistors are fundamental electronic components that are used to limit or control the flow of electric current in a circuit. They are passive two terminal devices with the primary purpose of providing resistance to the flow of electrical current.
 
 If a resistance is present in a circuit, some voltage is dropped on the resistor. The amount of dropped voltage is calculated by Ohm's law.
 
@@ -15,10 +15,10 @@ If a resistance is present in a circuit, some voltage is dropped on the resistor
 
 - These are special resistors that can have their resistance adjusted or changed as required.
 - Think of them like the volume knob on a radio: you turn it to increase or decrease resistance, which is handy for adjusting brightness or volume.
-- Potentiometers are often used for finer adjustments, while rheostats handle higher-power applications. 
+- Potentiometers are often used for finer adjustments, while rheostats handle higher power applications. 
 
 ## Color Coding of Resistors
-To indicate their resistance values, many resistors are color-coded with bands of different colors. By reading these color bands, you can determine the resistor's resistance value. Different color codes are used for different tolerance levels and precision.
+To indicate their resistance values, many resistors are color coded with bands of different colors. By reading these color bands, you can determine the resistor's resistance value. Different color codes are used for different tolerance levels and precision.
 
 **4-band color code of the resistor:** In a 4-band color code, the resistance of a resistor is printed four colored stripes on the resistor. Each color has its own meaning.
 
@@ -67,7 +67,7 @@ So the resistance is 22 × 10 = **220 ohm**, give or take 5%.
 </div>
 
 
-A potentiometer, often abbreviated as "pot," is a type of variable resistor used in electronics and electrical circuits. It is a three-terminal device with a resistive element and a sliding contact, and its primary function is to provide a variable voltage divider.
+A potentiometer, often abbreviated as "pot," is a type of variable resistor used in electronics and electrical circuits. It is a three terminal device with a resistive element and a sliding contact, and its primary function is to provide a variable voltage divider.
 
 <div style="text-align:center;">
     <img src="../../../Assets/Images/pot.jpg" width="350">
@@ -80,14 +80,14 @@ A potentiometer has three parts: a track, two fixed ends, and a moving slider. T
 
 ## Light Dependent Resistor (LDR)
 
-- LDR stands for "Light-Dependent Resistor" or "Light-Dependent Sensor."
+- LDR stands for "Light Dependent Resistor" or "Light Dependent Sensor."
 - It is a passive electronic component that changes its resistance in response to the intensity of incident light. LDRs are also commonly known as photoresistors or photocells.
 
 **Working of LDR:**
-LDRs have a resistance that decreases as the amount of light they are exposed to increases. In other words, their resistance is high in dark or low-light conditions, and it decreases when exposed to bright light. 
+LDRs have a resistance that decreases as the amount of light they are exposed to increases. In other words, their resistance is high in dark or low light conditions, and it decreases when exposed to bright light. 
 
 **Applications of LDR:**
-LDRs are versatile light-sensitive devices used for tasks like automatic outdoor lighting control, camera exposure adjustment, and DIY electronics projects. 
+LDRs are versatile light sensitive devices used for tasks like automatic outdoor lighting control, camera exposure adjustment, and DIY electronics projects. 
 
 >Note that LDR does not have any polarity. 
 

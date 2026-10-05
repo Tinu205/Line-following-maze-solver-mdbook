@@ -2,7 +2,7 @@
 
 Ever wondered how electronic devices store a little bit of electric charge and release it when needed? Let's meet the capacitor!
 
-A capacitor is a passive two-terminal component that stores electric charge, a bit like a tiny rechargeable battery. It fills up quickly and also empties quickly.
+A capacitor is a passive two terminal component that stores electric charge, a bit like a tiny rechargeable battery. It fills up quickly and also empties quickly.
 
 **Water bucket analogy:** Imagine a small bucket under a tap. When the tap runs, the bucket fills up. If the tap stops, the bucket keeps supplying water for a short while. A capacitor works the same way with electric charge. If the supply wobbles, the capacitor fills the gaps and evens things out.
 

@@ -10,11 +10,11 @@ Transistors are tiny electronic components that play a crucial role in controlli
 
 ## Types of transistors that are widely used
 
-**BJT (Bipolar Junction Transistor) and FET (Field-Effect Transistor)** are two fundamental types of transistors used in electronic circuits. They serve similar purposes but operate in slightly different ways.
+**BJT (Bipolar Junction Transistor) and FET (Field Effect Transistor)** are two fundamental types of transistors used in electronic circuits. They serve similar purposes but operate in slightly different ways.
 
 ### BJT (Bipolar Junction Transistor)
 
-NPN and PNP - the dynamic duo:
+NPN and PNP the dynamic duo:
 
 <div style="text-align:center;">
     <img src="../../../Assets/Images/pnp-npn-transistor.png" width="500">
@@ -34,14 +34,14 @@ NPN and PNP - the dynamic duo:
 
 BJTs are commonly used in analog circuits, such as amplifiers, and in switching applications. 
 
-### FET (Field-Effect Transistor)
+### FET (Field Effect Transistor)
 There are two primary types of FETs: MOSFET and JFET. 
 
 <div style="text-align:center;">
     <img src="../../../Assets/Images/jfet_mosfet.jpg" width="500">
 </div>
 
-**MOSFET (Metal-Oxide-Semiconductor Field-Effect Transistor):**
+**MOSFET (Metal Oxide Semiconductor Field Effect Transistor):**
 
 **Structure:** It consists of a gate, source, and drain. There's a thin insulating layer between the gate and the channel. 
 
@@ -49,7 +49,7 @@ There are two primary types of FETs: MOSFET and JFET.
 
 There are two main types of MOSFETs: N-channel and P-channel. N-channel MOSFETs are the most common choice for switching things on and off.
 
-**JFET (Junction Field-Effect Transistor):**
+**JFET (Junction Field Effect Transistor):**
 
 **Structure:** It has a single, uninterrupted bar of semiconductor material. 
 

@@ -2,9 +2,9 @@
 
 Have you ever wondered how electronic devices make sure electricity flows in only one direction? Let's explore diodes to find out!
 
-A diode is a small component with two legs. It lets current flow in **one direction only** and blocks it in the other direction. Think of it as a one-way street for electricity.
+A diode is a small component with two legs. It lets current flow in **one direction only** and blocks it in the other direction. Think of it as a one way street for electricity.
 
-The two legs are called the **anode** (+) and the **cathode** (-). Current can only flow from the anode to the cathode. This is useful for protecting circuits from being connected the wrong way round. A diode can also turn the back-and-forth current from a wall socket (AC) into one-way current (DC) that electronics can use. That job is called *rectifying*.
+The two legs are called the **anode** (+) and the **cathode** (-). Current can only flow from the anode to the cathode. This is useful for protecting circuits from being connected the wrong way round. A diode can also turn the back and forth current from a wall socket (AC) into one way current (DC) that electronics can use. That job is called *rectifying*.
 
 <div style="text-align:center;">
     <img src="../../../Assets/Images/Diode terminal.jpg" width="500">
@@ -44,7 +44,7 @@ For an easy understanding of how a diode works, enjoy the following video:
 </div>
 
 - An LED is a diode that glows when current flows through it.
-- LEDs are energy-efficient, long-lasting and come in many colors.
+- LEDs are energy efficient, long lasting and come in many colors.
 - You see them everywhere: indicator lights, TVs, torches and traffic signals.
 
 **Things to remember when using an LED:**
