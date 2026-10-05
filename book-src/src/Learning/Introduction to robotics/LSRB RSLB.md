@@ -91,4 +91,6 @@ The usual fix is to commit to the turn: once the bot decides to turn left (or ri
 | LSRB | Left → Straight → Right → Back | keep your left hand on the wall |
 | RSLB | Right → Straight → Left → Back | keep your right hand on the wall |
 
-**Further reading:** [Pololu's line maze algorithm guide](https://www.pololu.com/file/0j195/line-maze-algorithm.pdf)
+**Further reading:**
+- [Pololu's line maze algorithm guide](https://www.pololu.com/file/0j195/line-maze-algorithm.pdf)
+- [Coding a line follower robot using LSRB and finding the shortest path](https://towardinfinity.medium.com/coding-a-line-follower-robot-using-lsrb-and-finding-the-shortest-path-d906ffec71d)
