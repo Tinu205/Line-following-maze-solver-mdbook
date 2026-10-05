@@ -4,10 +4,10 @@
     <img src="../../../Assets/Images/nano.jpg" width="250">
 </div>
 
-* The Arduino Nano is a compact, breadboard-friendly microcontroller board that offers almost all the capabilities of the Arduino Uno in a much smaller form factor (about 18 mm × 45 mm).
+* The Arduino Nano is a compact, breadboard friendly microcontroller board that offers almost all the capabilities of the Arduino Uno in a much smaller form factor (about 18 mm × 45 mm).
 * Like the Uno, it is built around the **ATmega328P** microcontroller chip, so code written for the Uno generally runs on the Nano without any changes.
-* It has a total of **30 header pins**, including **22 I/O pins** (14 digital + 8 analog). Of these, **20 can be used as general-purpose digital I/O**, since A6 and A7 are analog-input only.
-* Its small size and pin headers let it plug directly into a breadboard, making it ideal for prototyping, wearables, robotics and space-constrained projects.
+* It has a total of **30 header pins**, including **22 I/O pins** (14 digital + 8 analog). Of these, **20 can be used as general purpose digital I/O**, since A6 and A7 are analog input only.
+* Its small size and pin headers let it plug directly into a breadboard, making it ideal for prototyping, wearables, robotics and space constrained projects.
 * As an 8-bit microcontroller running at 16 MHz, the Nano processes data in 8-bit chunks and is well-suited for a wide range of sensing and control tasks.
 * It offers **2 more analog inputs** than the Uno (A0 to A7 instead of A0 to A5).
 * A **Mini-B USB** connector is used for both programming and power, so no external power supply is needed during development. Unlike the Uno, the Nano has **no DC barrel jack**.
@@ -20,14 +20,14 @@
 * **Analog Pins:** Read analog voltage signals from analog sensors like temperature sensors, potentiometers, LDRs, microphones etc. [A0 to A7 - 8 analog pins]
   * A0 to A5 can also be used as digital I/O pins.
   * A6 and A7 are **analog input only**.
-* **Power Supply Pins:** Pins for supplying or taking power - VIN, 5V, 3V3, GND
+* **Power Supply Pins:** Pins for supplying or taking power [VIN, 5V, 3V3, GND].
 * **Mini-B USB Connector:** Connects to a computer to upload (flash) the program, for Serial Communication, and to power the board.
-* **PWM Pins:** 6 digital pins, marked by the ~ sign - D3, D5, D6, D9, D10, D11. They produce analog-like output by varying the width of the pulse, used for controlling LED brightness, motor speed, servo position etc.
+* **PWM Pins:** 6 digital pins, marked by the ~ sign [D3, D5, D6, D9, D10, D11]. They produce analog like output by varying the width of the pulse, used for controlling LED brightness, motor speed, servo position etc.
 * **USB-to-Serial Chip:** Manages communication between the microcontroller and the computer. Original boards use the **FT232RL**; many clone boards use the **CH340** (which may need a separate driver).
 * **Reset Button:** Restarts the program running on the microcontroller.
-* **Crystal Oscillator:** Provides the clock signal - 16 MHz [precise timing].
+* **Crystal Oscillator:** Provides the clock signal 16 MHz [precise timing].
 * **Voltage Regulator:** Converts the VIN supply to a stable 5V for the microcontroller and other components.
-* **ICSP Header:** 6-pin header for In-Circuit Serial Programming, used to burn the bootloader or program the chip directly.
+* **ICSP Header:** 6-pin header for In Circuit Serial Programming, used to burn the bootloader or program the chip directly.
 * **LEDs:**
   * **Power LED** - indicates the board is powered.
   * **TX/RX LEDs** - indicate data transmission over the serial interface.

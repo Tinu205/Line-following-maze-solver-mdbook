@@ -12,7 +12,7 @@
 
 - This makes it adaptable to a broad range of applications, from simple LED blinking to more complex sensor interfacing.
 
-- As an 8-bit microcontroller, the Uno processes data in 8-bit chunks, making it well-suited for a wide array of tasks.
+- As an 8-bit microcontroller, the Uno processes data in 8-bit chunks, making it well suited for a wide array of tasks.
 
 - Its straightforward design and extensive documentation make it particularly accessible for beginners in the world of electronics and programming.
 
@@ -25,11 +25,11 @@
 
 - **Microcontroller:** The brain of the board. It is responsible for executing your program and controlling input and output devices. [ATmega328P]
 
-- **Digital Pins:** Configured as either high or low, allowing you to interface with digital sensors, LEDs, and other devices - [D0 to D13 - 14 digital pins]
+- **Digital Pins:** Configured as either high or low, allowing you to interface with digital sensors, LEDs, and other devices [D0 to D13 - 14 digital pins]
 
-- **Analog Pins:** Read analog voltage signals from analog devices and sensors like temperature sensor, mic etc. - [A0 to A5 - 6 analog pins]
+- **Analog Pins:** Read analog voltage signals from analog devices and sensors like temperature sensor, mic etc. [A0 to A5 - 6 analog pins]
 
-- **Power Supply Pins:** Arduino boards have power supply pins for connecting power sources - Vin, 5v , 3.3v, GND
+- **Power Supply Pins:** Arduino boards have power supply pins for connecting power sources [Vin, 5v , 3.3v, GND]
 
 - **USB Connector:** to connect to a computer to flash the program or for the Serial Communication.
 
@@ -39,7 +39,7 @@
 
 - **Reset Button:** This button restarts your program running on the microcontroller. 
 
-- **Crystal Oscillator:** Clock Signal - usually 16MHz [provides precise timing]
+- **Crystal Oscillator:** Clock Signal usually 16MHz [provides precise timing]
 
 - **Voltage Regulator:** Maintains stable power for the microcontroller and other components.
 

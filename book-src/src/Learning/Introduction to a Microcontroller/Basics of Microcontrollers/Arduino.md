@@ -1,5 +1,5 @@
 ## Arduino
-Arduino is an open-source prototype platform built on simple hardware and software. It is made up of a programmable circuit board (which carries a microcontroller chip, such as the ATmega328P) and ready-made software called Arduino IDE (Integrated Development Environment), which is used to develop and upload computer code to the actual board. Arduino offers a standard form factor that condenses the microcontroller's features into a more manageable container. 
+Arduino is an open-source prototype platform built on simple hardware and software. It is made up of a programmable circuit board (which carries a microcontroller chip, such as the ATmega328P) and ready made software called Arduino IDE (Integrated Development Environment), which is used to develop and upload computer code to the actual board. Arduino offers a standard form factor that condenses the microcontroller's features into a more manageable container. 
 
 ### Why Arduino?
 - Arduino boards have the ability to read analog or digital input data from various sensors and convert it into an output, such as turning on or off a motor, an LED, connecting to the cloud, or performing a number of other tasks. 
@@ -21,11 +21,11 @@ Arduino is an open-source prototype platform built on simple hardware and softwa
 
 - **Arduino Nano:** The Nano is a compact version of the Uno board. It's smaller in size and is often used in projects where space is limited. It features the same microcontroller as the Uno and provides a good balance between size and functionality. 
 
-- **Arduino Leonardo:** The Leonardo board uses the ATmega32U4 microcontroller and has the ability to emulate a USB keyboard or mouse. This makes it suitable for projects that involve human-interface devices. 
+- **Arduino Leonardo:** The Leonardo board uses the ATmega32U4 microcontroller and has the ability to emulate a USB keyboard or mouse. This makes it suitable for projects that involve human interface devices. 
 
-- **Arduino Due:** The Due board is based on the more powerful Atmel SAM3X8E ARM Cortex-M3 CPU. It has a higher clock speed and more memory compared to the previous boards, making it suitable for more computation-intensive tasks.
+- **Arduino Due:** The Due board is based on the more powerful Atmel SAM3X8E ARM Cortex M3 CPU. It has a higher clock speed and more memory compared to the previous boards, making it suitable for more computation-intensive tasks.
 
-- **Arduino Lilypad:** The Lilypad is a circular, sewable Arduino designed for wearables and e-textiles. Its compact size and unique form factor make it ideal for integrating into fabric-based projects, offering a creative approach to adding technology to clothing and accessories. 
+- **Arduino Lilypad:** The Lilypad is a circular, sewable Arduino designed for wearables and e-textiles. Its compact size and unique form factor make it ideal for integrating into fabric based projects, offering a creative approach to adding technology to clothing and accessories. 
 
 - **Arduino Mini:** The Mini is a compact Arduino board, smaller than the standard Uno. It maintains compatibility with the Uno's microcontroller, striking a balance between size and functionality. It's a versatile choice for projects with limited space, making it suitable for embedded systems and compact gadgets.
 
