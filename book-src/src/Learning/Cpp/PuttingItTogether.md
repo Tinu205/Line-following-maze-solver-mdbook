@@ -58,7 +58,7 @@ Student 5: Pass
 4 of 5 passed.
 ```
 
-> 💡 **Try it yourself** — run it in the [Programiz online compiler](https://www.programiz.com/cpp-programming/online-compiler/).
+>**Try it yourself** run it in the [Programiz online compiler](https://www.programiz.com/cpp-programming/online-compiler/).
 >
 > 1. Change `SIZE` to 3 and nothing else. The whole program adapts: it asks for 3 marks and reports "of 3 passed". That is the benefit of using one constant instead of writing 5 everywhere.
 > 2. Now do it the wrong way. Keep `SIZE` at 3, but change the first loop to `i < 5`. The program tries to store marks in lockers 3 and 4, which do not exist in a 3-item array. That is an out-of-bounds bug, and it can give strange results or crash.

@@ -115,7 +115,7 @@ Two rules to remember. Write your functions above `main`, otherwise C++ reaches 
 
 Functions are worth the trouble for three reasons: the name says what the code does, a bug gets fixed in one place instead of six, and each piece can be tested on its own.
 
-> 💡 **Try it yourself** — write `bool isEven(int n)` that returns true for even numbers, then use it inside a loop in `main` to print every even number from 1 to 20. Build it in the [Programiz online compiler](https://www.programiz.com/cpp-programming/online-compiler/), then call it with a negative number and check your logic still holds.
+>**Try it yourself** write `bool isEven(int n)` that returns true for even numbers, then use it inside a loop in `main` to print every even number from 1 to 20. Build it in the [Programiz online compiler](https://www.programiz.com/cpp-programming/online-compiler/), then call it with a negative number and check your logic still holds.
 
 ## Quick reference
 

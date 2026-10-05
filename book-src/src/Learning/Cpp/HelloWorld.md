@@ -45,7 +45,7 @@ int main() {
 
 Both programs do exactly the same thing. **From now on, every example in this series uses `using namespace std;`**, so you will see plain `cout`, `cin` and `endl`.
 
-> 💡 **Try it yourself** — paste this into the [Programiz online compiler](https://www.programiz.com/cpp-programming/online-compiler/) and hit run. Then change the text inside the quotes and run it again. Finally, delete the `using namespace std;` line and read the error message you get. Seeing an error once makes it much less scary later.
+>**Try it yourself** paste this into the [Programiz online compiler](https://www.programiz.com/cpp-programming/online-compiler/) and hit run. Then change the text inside the quotes and run it again. Finally, delete the `using namespace std;` line and read the error message you get. Seeing an error once makes it much less scary later.
 
 ## Quick reference
 

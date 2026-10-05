@@ -124,7 +124,7 @@ Trace it: `2`, `4` and `6` are skipped by `continue`. At `i = 9`, the number is 
 
 If a loop never ends, the test never became false. The usual cause is a forgotten `i++` or a `while` whose variable is never updated inside the body. Press Ctrl+C to stop a runaway program.
 
-> 💡 **Try it yourself** — read a number and print its multiplication table up to 10, as `7 x 3 = 21`. Then write a loop that adds the numbers 1 to 100. Run both in the [Programiz online compiler](https://www.programiz.com/cpp-programming/online-compiler/). Finally, break a loop on purpose by removing the `i++` and see what a runaway loop looks like (Ctrl+C to stop it).
+>**Try it yourself** read a number and print its multiplication table up to 10, as `7 x 3 = 21`. Then write a loop that adds the numbers 1 to 100. Run both in the [Programiz online compiler](https://www.programiz.com/cpp-programming/online-compiler/). Finally, break a loop on purpose by removing the `i++` and see what a runaway loop looks like (Ctrl+C to stop it).
 
 ## Quick reference
 

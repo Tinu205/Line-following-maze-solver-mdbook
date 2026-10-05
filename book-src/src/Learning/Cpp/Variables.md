@@ -116,7 +116,7 @@ Your name is Meera
 
 > `cin >> name` reads only **one word**, up to the first space. If you type `Meera Rao`, `name` will hold just `Meera`. To read a whole line, use `getline(cin, name);` instead.
 
-> 💡 **Try it yourself** — write a program that asks for your name and your age, then prints a sentence using both. Try it in the [Programiz online compiler](https://www.programiz.com/cpp-programming/online-compiler/), then compare it with a friend's.
+>**Try it yourself** write a program that asks for your name and your age, then prints a sentence using both. Try it in the [Programiz online compiler](https://www.programiz.com/cpp-programming/online-compiler/), then compare it with a friend's.
 
 ## Quick reference
 

@@ -150,7 +150,7 @@ Line position: 0.5
 
 A position of `0.5` means "a little to the right of center". The `(double)` makes the division keep its decimals, and the `count > 0` check stops us dividing by zero when no sensor sees the line. You will use this same idea in [Putting It Together](../Introduction%20to%20robotics/Putting%20It%20Together.md) to calculate the bot's error.
 
-> 💡 **Try it yourself** — run the sensor program in the [Programiz online compiler](https://www.programiz.com/cpp-programming/online-compiler/) and change `readings` to see the position move. Try `{1, 0, 0, 0, 0}`, `{0, 0, 1, 0, 0}` and `{0, 0, 0, 0, 0}`. Then store 6 daily temperatures, work out the average, and print how many days were warmer than average. As a last experiment, deliberately read `marks[5]` on a 5-item array and see what junk value comes back.
+>**Try it yourself** run the sensor program in the [Programiz online compiler](https://www.programiz.com/cpp-programming/online-compiler/) and change `readings` to see the position move. Try `{1, 0, 0, 0, 0}`, `{0, 0, 1, 0, 0}` and `{0, 0, 0, 0, 0}`. Then store 6 daily temperatures, work out the average, and print how many days were warmer than average. As a last experiment, deliberately read `marks[5]` on a 5-item array and see what junk value comes back.
 
 ## Quick reference
 

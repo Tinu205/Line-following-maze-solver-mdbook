@@ -33,7 +33,7 @@ Pass
 
 The question inside the brackets is built with comparison operators.
 
-| Operator | Means | With `marks = 72` |
+| Operator | Means | With (marks = 72) |
 | --- | --- | --- |
 | `==` | is equal to | `marks == 72` is true |
 | `!=` | is not equal to | `marks != 40` is true |
@@ -99,7 +99,7 @@ Teenager
 Holiday
 ```
 
-> 💡 **Try it yourself** — change `marks` in the grade checker and run every branch in the [Programiz online compiler](https://www.programiz.com/cpp-programming/online-compiler/): test marks of 95, 80, 65, 45 and 20. Then write a new program that reads a number and prints whether it is positive, negative or zero. For a challenge, read three numbers and print the largest.
+>**Try it yourself** change `marks` in the grade checker and run every branch in the [Programiz online compiler](https://www.programiz.com/cpp-programming/online-compiler/): test marks of 95, 80, 65, 45 and 20. Then write a new program that reads a number and prints whether it is positive, negative or zero. For a challenge, read three numbers and print the largest.
 
 ## Quick reference
 
