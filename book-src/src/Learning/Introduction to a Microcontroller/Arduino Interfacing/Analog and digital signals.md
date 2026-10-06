@@ -10,7 +10,7 @@ Analog signals are also called continuous signals, they can take any value withi
 
 ## Digital signals
 
-Digital signals, on the other hand, only ever sit at a small number of fixed levels — for a microcontroller like the Arduino, usually just two: **HIGH** and **LOW** (also written as 1 and 0). There's nothing in between; a pin is either close to 5V (HIGH) or close to 0V (LOW), the same way a light switch is either on or off, never "a little bit on."
+Digital signals, on the other hand, only ever sit at a small number of fixed levels for a microcontroller like the Arduino, usually just two: **HIGH** and **LOW** (also written as 1 and 0). There's nothing in between; a pin is either close to 5V (HIGH) or close to 0V (LOW), the same way a light switch is either on or off, never "a little bit on."
 
 A push button is a natural digital device: pressed or not pressed, nothing in between. That's also why digital signals are so reliable: a tiny bit of electrical noise on the wire might nudge a voltage from 4.8V to 4.6V, but it's still unmistakably HIGH, so the message never gets garbled. This is exactly why computers, and the "thinking" part of your microcontroller, do all their internal work in digital: two clean states are much harder to misread than a continuous range of values.
 
@@ -21,7 +21,7 @@ Your bot will use both, for different jobs:
 - **Naturally digital:** a push button, a switch, an LED you're just turning on or off.
 - **Naturally analog:** an LDR, an IR sensor's raw output, a potentiometer's position.
 
-Here's the catch — your microcontroller's brain only really understands digital signals. So how does it read something analog, like a sensor's smoothly-changing voltage? It uses a small built-in translator called an **ADC (Analog-to-Digital Converter)**, which chops that continuous voltage into a digital number it can work with. We'll open that up properly in the ADC page coming up. And when the bot needs to send out something analog-*like*, such as a dimmed LED or a motor running at half-speed, it fakes it using a trick called **PWM** — more on that soon too.
+Here's the catch your microcontroller's brain only really understands digital signals. So how does it read something analog, like a sensor's smoothly changing voltage? It uses a small built-in translator called an **ADC (Analog-to-Digital Converter)**, which chops that continuous voltage into a digital number it can work with. We'll open that up properly in the ADC page coming up. And when the bot needs to send out something analog *like*, such as a dimmed LED or a motor running at half speed, it fakes it using a trick called **PWM** more on that soon too.
 
 ## Quick reference
 

@@ -72,7 +72,7 @@ void loop() {
 }
 ```
 
-> 💡 **Try it.** Change the `delay(10)` to a bigger or smaller number and see how the fade speed changes. Then try a different `~` pin, such as 5 or 6. Later, you will use the same `analogWrite()` idea to set the **speed of a motor**.
+>**Try it.** Change the `delay(10)` to a bigger or smaller number and see how the fade speed changes. Then try a different `~` pin, such as 5 or 6. Later, you will use the same `analogWrite()` idea to set the **speed of a motor**.
 
 > Note: `analogWrite()` changes how long the pin stays ON, not how fast it switches. So it will not change the pitch of a buzzer.
 

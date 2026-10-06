@@ -1,12 +1,12 @@
 ## Serial Communication
 
-So far, whenever something went wrong in your code, you had no real way to peek inside and see what was happening — you could only guess from how the LED behaved. Serial communication fixes that: it lets your Arduino send text back to your computer over the same USB cable that powers it, so you can actually see what your program is thinking while it runs.
+So far, whenever something went wrong in your code, you had no real way to peek inside and see what was happening you could only guess from how the LED behaved. Serial communication fixes that: it lets your Arduino send text back to your computer over the same USB cable that powers it, so you can actually see what your program is thinking while it runs.
 
-Think of it like a walkie-talkie between the Arduino and your laptop. The Arduino can key up and say "sensor reads 512" or "button pressed," and that message shows up as text on your screen in something called the **Serial Monitor**. This is, by far, the most useful debugging tool you'll use for the rest of this course — whenever your bot does something unexpected, printing out sensor values is usually the first thing to try.
+Think of it like a walkie-talkie between the Arduino and your laptop. The Arduino can key up and say "sensor reads 512" or "button pressed," and that message shows up as text on your screen in something called the **Serial Monitor**. This is, by far, the most useful debugging tool you'll use for the rest of this course whenever your bot does something unexpected, printing out sensor values is usually the first thing to try.
 
 ### Setting it up
 
-Before you can send anything, both sides need to agree on how fast they're talking — this speed is called the **baud rate**. You set it once, in `setup()`:
+Before you can send anything, both sides need to agree on how fast they're talking this speed is called the **baud rate**. You set it once, in `setup()`:
 
 ```cpp
 void setup() {
@@ -25,7 +25,7 @@ Serial.print("Hello");     // stays on the same line
 Serial.println("World");   // prints, then moves to a new line
 ```
 
-`print` keeps writing on the same line, which is handy for building up one message piece by piece. `println` adds a line break at the end, so the next thing you print starts fresh below it. Both can print numbers too, not just text — `Serial.println(sensorValue);` works exactly as you'd expect.
+`print` keeps writing on the same line, which is handy for building up one message piece by piece. `println` adds a line break at the end, so the next thing you print starts fresh below it. Both can print numbers too, not just text `Serial.println(sensorValue);` works exactly as you'd expect.
 
 ### Seeing it for yourself in Velxio
 
@@ -55,9 +55,9 @@ void loop() {
 }
 ```
 
-Now the sketch prints a line about ten times a second, saying whether the button is pressed or released, in real time, on your computer — exactly the kind of visibility you'll rely on once you're staring at raw sensor numbers later in this course.
+Now the sketch prints a line about ten times a second, saying whether the button is pressed or released, in real time, on your computer exactly the kind of visibility you'll rely on once you're staring at raw sensor numbers later in this course.
 
-> 💡 **Try it.** Add a line that also prints the raw `value` (0 or 1) alongside the message, so you can see the actual number behind the HIGH/LOW state.
+>**Try it.** Add a line that also prints the raw `value` (0 or 1) alongside the message, so you can see the actual number behind the HIGH/LOW state.
 
 ## Quick reference
 
