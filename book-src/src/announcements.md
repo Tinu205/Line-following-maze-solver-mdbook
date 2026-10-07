@@ -97,10 +97,10 @@ html.light .tl-wrap, html.rust .tl-wrap { --tl-done: #4353c9; --tl-live: #9a7300
   // link is optional: the page's path from the book root, ending in .html
   // Dates below are placeholders (dd-mm-yyyy shown on the page, yyyy-mm-dd here for parsing) — update start/end once real dates are finalized.
   const TASKS = [
-    { name: "Task 1", start: "2027-09-01", end: "2027-09-14",
+    { name: "Task 1", start: "2026-09-01", end: "2026-09-14",
       text: "Programming Fundamentals: variables, conditionals, loops, functions and arrays in C++, solved as a HackerRank contest.",
       link: "Tasks/Task_1/Brief.html" },
-    { name: "Task 2", start: "2027-09-15", end: "2027-09-21",
+    { name: "Task 2", start: "2026-10-02", end: "2026-10-21",
       text: "Introduction to Arduino: digital and analog I/O, serial communication and PWM, wiring your first simulated circuits.",
       link: "Tasks/Task_2/Brief.html" },
     { name: "Task 3", start: "2027-09-22", end: "2027-09-28",

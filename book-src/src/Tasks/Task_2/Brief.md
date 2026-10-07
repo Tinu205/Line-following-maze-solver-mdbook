@@ -1,5 +1,9 @@
 # Task 2: Introduction to Arduino
 
+<div style="text-align:center;">
+    <img src="../../Assets/Gifs/arduino_interface.gif" width="450">
+</div>
+
 **Duration:** 1 week
 
 ## Brief

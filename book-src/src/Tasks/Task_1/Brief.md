@@ -1,5 +1,10 @@
 # Task 1: Programming Fundamentals
 
+<div style="text-align:center;">
+    <img src="../../Assets/Images/programming_fundamentals.png" width="450">
+</div>
+
+
 **Duration:** 2 weeks
 
 ## Brief
