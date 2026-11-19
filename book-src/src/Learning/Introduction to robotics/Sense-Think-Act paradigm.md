@@ -32,3 +32,9 @@ This is a loop: sensing informs thinking, and thinking guides acting. Then the r
 - **Act:** the motors speed up or slow down, so the bot turns toward the line.
 
 This happens hundreds of times every second!
+
+<div style="text-align:center;">
+    <img src="../../Assets/Images/mascot_sense_think_act.png" alt="The robot mascot dodging falling viruses and catching falling apples" width="400">
+</div>
+
+<p style="text-align:center;"><em>Sense: something is falling. Think: is it an apple or a virus? Act: catch it or dodge it!</em></p>

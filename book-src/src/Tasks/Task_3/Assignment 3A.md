@@ -1,5 +1,9 @@
 # Task 3A: Reading Sensors
 
+<div style="text-align:center;">
+    <img src="../../Assets/Images/mascot_assignment.png" alt="The robot mascot writing at a desk" width="220">
+</div>
+
 Your bot's IR sensor array gives you a stream of analog values, exactly like the thermistor example in [Sensor Integration](../../Learning/Introduction%20to%20a%20Microcontroller/Arduino%20Interfacing/Sensor%20integration.md), just several sensors instead of one.
 
 ## What to do

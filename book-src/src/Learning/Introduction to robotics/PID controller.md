@@ -113,6 +113,10 @@ Put P, I, and D together and you get a **PID controller**, one of the most widel
 
 ## How to Tune It
 
+<div style="text-align:center;">
+    <img src="../../Assets/Images/mascot_idea.png" alt="The robot mascot pointing up with an idea" width="150">
+</div>
+
 Tuning means finding the right `Kp`, `Ki`, and `Kd` for your specific bot. Follow this recipe:
 
 1. Set `Ki = 0` and `Kd = 0`. Use a slow, safe `baseSpeed`.

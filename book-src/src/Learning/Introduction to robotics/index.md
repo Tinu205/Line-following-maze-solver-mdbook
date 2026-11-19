@@ -1,3 +1,7 @@
+<div style="text-align:center;">
+    <img src="../../Assets/Images/mascot_line.png" alt="A student drawing a line on the floor for the robot mascot to follow" width="450" style="border-radius:12px;">
+</div>
+
 Welcome, young innovators, to the thrilling world of robotics, where curiosity transforms into creation! In this exciting journey, we'll cover the basics of robotics and understand how machines move, sense, and think.
 
 The upcoming modules will guide us to:

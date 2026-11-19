@@ -1,5 +1,9 @@
 # Welcome, Young Roboticists!
 
+<div style="text-align:center;">
+    <img src="Assets/Images/mascot_welcome.png" alt="The e-Yantra robot mascot holding out a bunch of flowers" width="220">
+</div>
+
 Over the next few weeks you will build a robot that drives itself. It is an **Arduino Nano line-following robot** that looks at a black line on the floor with its own sensors, works out where the line went, and steers to stay on it. By the end, it will find its way through a **maze**.
 
 You do not need any experience. This book starts from zero and takes you one small step at a time.
@@ -41,12 +45,20 @@ Every task has a **Brief** (what you are building) and an **Assignment** (what t
 
 ## What you will need
 
+<div style="text-align:center;">
+    <img src="Assets/Images/mascot_kit.png" alt="The robot mascot jumping out of an open box" width="180">
+</div>
+
 - A computer with internet access.
 - The [Arduino IDE](Software%20Setup/Arduino_ide.md) installed, and access to the [Velxio Editor](Software%20Setup/Velxio%20Editor.md) in your browser.
 - For Task 1, a free [HackerRank](https://www.hackerrank.com/) account (see the Task 1 Assignment).
 - The Arduino Nano robot with its IR sensor array and motors, from Task 3 onwards.
 
 Not sure about anything else, such as how to get the robot kit? Check the [Announcements](announcements.md) page and ask your teacher or mentor.
+
+<div style="text-align:center;">
+    <img src="Assets/Images/mascot_teamwork.png" alt="Students and the robot mascot in a tug of war with a Team Work sign" width="500">
+</div>
 
 ## Dates and deadlines
 

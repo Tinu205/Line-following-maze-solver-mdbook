@@ -1,5 +1,9 @@
 # Task 6: Assignment
 
+<div style="text-align:center;">
+    <img src="../../Assets/Images/mascot_assignment.png" alt="The robot mascot writing at a desk" width="220">
+</div>
+
 Implement the LSRB (or RSLB) priority algorithm so your bot can navigate a maze: detect junctions with the IR array, pick a direction using your chosen priority order, and keep the turn committed until the line is found again.
 
 ## Submission

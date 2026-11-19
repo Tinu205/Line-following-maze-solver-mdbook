@@ -1,5 +1,9 @@
 # Task 5: Assignment
 
+<div style="text-align:center;">
+    <img src="../../Assets/Images/mascot_assignment.png" alt="The robot mascot writing at a desk" width="220">
+</div>
+
 Extend your P controller from Task 4 into a PD controller, adding a `Kd` term that reacts to how fast the error is changing. If you want to go further, add the `Ki` term too for a full PID controller.
 
 ## Submission

@@ -1,5 +1,9 @@
 # Task 3: Understanding the Bot
 
+<div style="text-align:center;">
+    <img src="../../Assets/Images/mascot_brief.png" alt="Two students and the robot mascot reading a sheet of paper together" width="350">
+</div>
+
 **Duration:** 1 week
 
 ## Brief

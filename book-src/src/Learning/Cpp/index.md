@@ -1,5 +1,9 @@
 # Why Does a Robot Need Software?
 
+<div style="text-align:center;">
+    <img src="../../Assets/Images/mascot_code.png" alt="The robot mascot reading a scroll under a screen full of binary code" width="300">
+</div>
+
 Look at your bot's parts: motors, wheels, sensors, a battery, a microcontroller (a tiny computer on a single chip that controls the other parts). Every part is *hardware* you can hold it in your hand, and on its own it does nothing.
 
 Plug the battery in right now and nothing intelligent happens. The motors don't know when to turn. The sensors don't know what a "black line" is. Hardware has no opinions it just responds to electrical signals the instant they arrive.

@@ -1,5 +1,9 @@
 # Task 2: Assignment
 
+<div style="text-align:center;">
+    <img src="../../Assets/Images/mascot_assignment.png" alt="The robot mascot writing at a desk" width="220">
+</div>
+
 Same simulator, new skill: instead of just reading and running code, you're wiring up real circuits and watching them respond. Since there's no auto-grading site for hardware the way HackerRank auto-judged Task 1, you'll submit a short video for each sub-task instead.
 
 ## What to build

@@ -1,6 +1,6 @@
-# Hello Little Explorers
+# Hello Young Explorers
 <div style="text-align: center;">
-    <img src="../Assets/Images/hello.png" width="250">
+    <img src="../Assets/Images/hello.png" width="210">
 </div>
 
 
@@ -27,3 +27,7 @@ Go through the four sections in this order:
 You will also need some software for the later sections. Set it up with the [Arduino IDE Installation](../Software%20Setup/Arduino_ide.md) guide and the [Velxio Editor](../Software%20Setup/Velxio%20Editor.md) page.
 
 Stuck on a topic? Come back to the right page at any time. Each Task Brief tells you which pages to revisit.
+
+<div style="text-align:center;">
+    <img src="../Assets/Images/mascot_expand_knowledge.png" alt="The robot mascot under the words Expand Knowledge" width="250" style="border-radius:12px;">
+</div>

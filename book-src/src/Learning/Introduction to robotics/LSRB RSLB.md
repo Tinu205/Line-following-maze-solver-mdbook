@@ -1,5 +1,9 @@
 ## When the Line Splits
 
+<div style="text-align:center;">
+    <img src="../../Assets/Images/mascot_maze.png" alt="The robot mascot projecting a maze for a group of students" width="400">
+</div>
+
 So far, your bot's only job has been to stay on the line, and PID handles that beautifully. But a maze isn't one long line. Every so often, the line splits, turns, or simply ends, and your bot has to make a decision: *which way now?*
 
 *Question:* Imagine you're walking through a maze and reach a spot where you can go left, straight, or right. How would you decide which way to go? And more importantly, how would you make sure you don't end up walking in circles forever?

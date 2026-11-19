@@ -1,3 +1,9 @@
+# Task 1: Assignment
+
+<div style="text-align:center;">
+    <img src="../../Assets/Images/mascot_assignment.png" alt="The robot mascot writing at a desk" width="220">
+</div>
+
 Hello young competitors, we've officially entered the competition phase. From now on you'll be given tasks, and you'll have to communicate with your teammates to solve them efficiently. Let's get started.
 
 Assuming you've gone through the C++ section in Learning, this task will be much easier to understand. For this task you have to create an account on [HackerRank](https://www.hackerrank.com/) With your team ID as username.

@@ -2,6 +2,10 @@
 
 In simple words, when a robot has two wheels, each driven by its own motor, and the two motors can be driven separately, we call it a **differential-drive robot**. Our line follower is one.
 
+<div style="text-align:center;">
+    <img src="../../Assets/Images/mascot_run.png" alt="The robot mascot racing along beside a running student" width="300">
+</div>
+
 By changing the speed of each wheel, we change the path the robot takes. (To learn how a single motor is wired and driven, see [Motors and Motor Drivers](Motors%20and%20Motor%20Drivers.md).)
 
 Here are the various paths that a robot can follow.

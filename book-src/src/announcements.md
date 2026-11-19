@@ -80,6 +80,10 @@ html.light .tl-wrap, html.rust .tl-wrap { --tl-done: #4353c9; --tl-live: #9a7300
 }
 </style>
 
+<div style="text-align:center;">
+    <img src="Assets/Images/mascot_wave.png" alt="The robot mascot waving hello" width="200">
+</div>
+
 <div class="tl-wrap">
 <header class="tl-head">
 <p class="tl-stage">Stage 1</p>

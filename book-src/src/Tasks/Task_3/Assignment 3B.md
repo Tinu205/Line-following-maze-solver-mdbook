@@ -1,5 +1,9 @@
 # Task 3B: Basic Movement
 
+<div style="text-align:center;">
+    <img src="../../Assets/Images/mascot_assignment.png" alt="The robot mascot writing at a desk" width="220">
+</div>
+
 Now put the motors to work. Using what you learned in [Motors & Motor Drivers](../../Learning/Introduction%20to%20robotics/Motors%20and%20Motor%20Drivers.md) and [Motion Control](../../Learning/Introduction%20to%20robotics/motion%20control.md), write code that drives your bot through six manoeuvres, one after another, in this exact order:
 
 1. Forward

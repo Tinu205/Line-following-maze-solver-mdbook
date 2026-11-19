@@ -1,5 +1,9 @@
 # Task 4: Assignment
 
+<div style="text-align:center;">
+    <img src="../../Assets/Images/mascot_assignment.png" alt="The robot mascot writing at a desk" width="220">
+</div>
+
 ## Part A: Bang-Bang
 
 Implement a bang-bang line follower: full correction one way when the sensor sees the line drift left, full correction the other way when it drifts right. Run it on the actual line and notice the wobble.

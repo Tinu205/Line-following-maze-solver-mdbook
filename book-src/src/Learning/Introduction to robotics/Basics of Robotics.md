@@ -11,6 +11,10 @@ A robot is a machine designed to carry out tasks on its own (autonomously), part
 - Using sensors, robots can notice their surroundings and react to them.
 - Robots that work near people must be designed to be easy to use and safe.
 
+<div style="text-align:center;">
+    <img src="../../Assets/Images/mascot_real_world.png" alt="The robot mascot vacuuming, labelled Real-World Problems Solving Skill" width="280" style="border-radius:12px;">
+</div>
+
 ## ROBOTICS
 
 Robotics is the study and engineering field dedicated to designing, constructing, operating, and applying robots.
